@@ -1,7 +1,27 @@
 :root{
-    
+  --text-color: #232323;
+  --primary-color: #9e8e77;
+  --background-color: #d9cfc5;
+  --heading-color: #b99a7e;
 }
 
-body{
-  font-family: 'UTM Avo', sans-serif;
+h1,h2,h3,h4,h5,h6{
+  font-family: "Raleway", serif;;
+}
+
+li, a, p{
+  font-family: "Nunito", serif;
+  font-size: 20px;
+}
+
+*{
+  box-sizing: border-box!important;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+.box{
+  height: 500px;
 }
