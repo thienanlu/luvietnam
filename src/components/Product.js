@@ -6,7 +6,7 @@ function Product(){
     return(
         <div className="product">
             <Header />
-            <Header />
+            <Footer />
         </div>
     )
 }
