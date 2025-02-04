@@ -49,7 +49,7 @@ function Home(){
                 <div className="row align-items-center justify-content-between">
                     <div className="home-product-wrapper col-lg-4 col-sm-12">
                         {/* more image will be added here */}
-                        <img src={productImg1} />
+                        <img src={productImg1} alt="sample product"/>
                     </div>
                     <div className="home-product-textbox col-lg-8 col-sm-12">
                         <h2 className="home-section-title">Sản phẩm</h2>
@@ -58,7 +58,6 @@ function Home(){
                     </div>
                 </div>
             </section>
-            
             <ContactBanner />
             <Footer />
         </div>

@@ -1,3 +1,22 @@
 .contact-banner{
-    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-banner > img{
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    filter: brightness(0.8);
+    border-radius: 8px;
+}
+
+.contact-banner-text{
+    position: absolute;
+    border-radius: 16px;
+    padding: 48px 62px;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
 }

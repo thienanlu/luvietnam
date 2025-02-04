@@ -12,6 +12,7 @@ h1,h2,h3,h4,h5,h6{
 li, a, p{
   font-family: "Nunito", serif;
   font-size: 20px;
+  margin-bottom: 0;
 }
 
 *{
@@ -28,4 +29,10 @@ li, a, p{
 
 .app-item{
   padding: 80px 40px;
+}
+
+.app-item-title{
+    color: var(--heading-color);
+    font-size: 36px;
+    font-weight: 600;
 }
