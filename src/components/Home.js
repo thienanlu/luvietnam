@@ -11,7 +11,7 @@ import ContactBanner from "./ContactBanner";
 
 // import css files
 import '../assets/css/home.css'
-
+import '../assets/css/responsive.css'
 // import image
 import logo from '../assets/img/logo.jpg'
 import productImg1 from '../assets/img/product-item-1.jpg'
@@ -20,7 +20,7 @@ function Home(){
     return(
         <div className="home-wrapper">
             <Header />
-            <Carousel />
+            <Carousel title="TƯ VẤN - THIẾT KẾ - THI CÔNG SETUP QUÁN- ĐÀO TẠO BẾP"/>
             {/* about section */}
             <section className="home-about-section container-fluid app-item">
                 <div className="row align-items-center justify-content-between">
@@ -29,7 +29,7 @@ function Home(){
                         <p>Chúng tôi cung cấp dịch vụ tư vấn - thiết kế - thi công setup nhà hàng - đào tạo bếp chuyên nghiệp và cung cấp trang thiết bị & nội thất cho doanh nghiệp của bạn.</p>
                         <Button link='/about' text="Tìm hiểu thêm" />
                     </div>
-                    <img src={logo} alt="luvietnam logo" className="col-lg-4" />
+                    <img src={logo} alt="luvietnam logo" className="col-lg-4 col-sm-12" />
                 </div>
             </section>
 
@@ -47,11 +47,11 @@ function Home(){
             {/* product section */}
             <section className="home-product-section container-fluid app-item">
                 <div className="row align-items-center justify-content-between">
-                    <div className="home-product-wrapper col-lg-4 col-sm-12">
+                    <div className="home-product-wrapper col-lg-4 col-sm-12 order-lg-1 order-sm-2 mt-sm-16">
                         {/* more image will be added here */}
                         <img src={productImg1} alt="sample product"/>
                     </div>
-                    <div className="home-product-textbox col-lg-8 col-sm-12">
+                    <div className="home-product-textbox col-lg-8 col-sm-12 order-lg-2 order-sm-1">
                         <h2 className="home-section-title">Sản phẩm</h2>
                         <p>Chúng tôi cung cấp dịch vụ tư vấn - thiết kế - thi công setup nhà hàng - đào tạo bếp chuyên nghiệp và cung cấp trang thiết bị & nội thất cho doanh nghiệp của bạn.</p>
                         <Button link='/product' text="Xem ngay" />

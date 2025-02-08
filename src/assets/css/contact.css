@@ -55,7 +55,12 @@
     padding: 12px 16px;
     border: none;
     border-radius: 8px;
+    color: var(--text-color);
     background-color: var(--background-color);
+}
+
+.contact-form input:focus, .contact-form textarea:focus{
+    outline: none;
 }
 
 .submit-form-btn{
@@ -71,3 +76,4 @@
     background-color: transparent;
     color: var(--primary-color);
 }
+

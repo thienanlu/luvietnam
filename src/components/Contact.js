@@ -16,7 +16,7 @@ function Contact(){
                     <div className="contact-info col-lg-6 col-sm-12">
                         <div className="contact-info-item">
                             <i class="fa-solid fa-location-dot"></i>
-                            <p><span>Địa chỉ:</span> Chung cư Picity High Park, Thạnh Xuân, Q.12, TP.HCM</p>
+                            <p><span>Địa chỉ:</span>Picity High Park, Thạnh Xuân, Q.12, TP.HCM</p>
                         </div>
                         <div className="contact-info-item">
                             <i class="fa-solid fa-phone"></i>

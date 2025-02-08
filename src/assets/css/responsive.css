@@ -1,0 +1,20 @@
+/* homepage responsive */
+/* mobile - phone */
+@media only screen and (max-width: 600px) {
+    .app-item{
+        padding: 80px 32px;
+    }
+
+    .utilities{
+        display: none;
+    }
+
+    .navbar{
+        padding: 0 32px;
+    }
+
+    .carousel-wrapper{
+        margin-top: 122px;
+    }
+}
+
