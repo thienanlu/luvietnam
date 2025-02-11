@@ -27,7 +27,7 @@ function Header(){
                 <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <Link to="/" class="nav-link" aria-current="page" href="#">Trang chủ</Link>
+                        <Link to="/luvietnam/" class="nav-link" aria-current="page" href="#">Trang chủ</Link>
                     </li>
                     <li class="nav-item">
                         <Link to="/about" class="nav-link" href="#">Giới thiệu</Link>
