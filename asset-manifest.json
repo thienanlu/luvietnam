@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/luvietnam/static/css/main.253d1d40.css",
-    "main.js": "/luvietnam/static/js/main.3590c3e4.js",
+    "main.js": "/luvietnam/static/js/main.7f7b7fcb.js",
     "static/js/488.56f74850.chunk.js": "/luvietnam/static/js/488.56f74850.chunk.js",
     "static/media/carousel-img-2.jpg": "/luvietnam/static/media/carousel-img-2.318619c7e82268a5b12e.jpg",
     "static/media/service-item-1.jpg": "/luvietnam/static/media/service-item-1.74b4399ded770414f20c.jpg",
@@ -10,11 +10,11 @@
     "static/media/logo.jpg": "/luvietnam/static/media/logo.71bde7c282c15c0260c4.jpg",
     "index.html": "/luvietnam/index.html",
     "main.253d1d40.css.map": "/luvietnam/static/css/main.253d1d40.css.map",
-    "main.3590c3e4.js.map": "/luvietnam/static/js/main.3590c3e4.js.map",
+    "main.7f7b7fcb.js.map": "/luvietnam/static/js/main.7f7b7fcb.js.map",
     "488.56f74850.chunk.js.map": "/luvietnam/static/js/488.56f74850.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.253d1d40.css",
-    "static/js/main.3590c3e4.js"
+    "static/js/main.7f7b7fcb.js"
   ]
 }
