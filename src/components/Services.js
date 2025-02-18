@@ -6,20 +6,20 @@ import ServiceCard from "./ServiceCard";
 import ContactBanner from "./ContactBanner";
 
 // import image
-import serviceCard1 from "../assets/img/service-item-1.jpg";
+import serviceCard1 from "../assets/img/comga/comga-1.jpg";
+import serviceCard2 from "../assets/img/bunbo/bunbo-1.jpg";
 
 
 function Services(){
     return(
         <div className="service">
             <Header />
-            <Carousel title="DỊCH VỤ CỦA CHÚNG TÔI"/>
+            <Carousel title="DỊCH VỤ" text="DỊCH VỤ CỦA CHÚNG TÔI"/>
             <div className="service-wrapper app-item container">
                 <h3 className="service-heading home-section-title">Các gói thiết kế & setup</h3>
                 <div className="row">
-                    <ServiceCard name="Mẫu 20 chỗ ngồi" image={serviceCard1} />
-                    <ServiceCard name="Mẫu 40 chỗ ngồi" image={serviceCard1} />
-                    <ServiceCard name="Mẫu Kiosk online" image={serviceCard1} />
+                    <ServiceCard name="Mô hình Cơm Gà Da Giòn Mr.lữ" image={serviceCard1} />
+                    <ServiceCard name="Mô hình Bún Bò Huế Ngon số 1" image={serviceCard2} />
                 </div>
             </div>
             <ContactBanner />

@@ -1,7 +1,11 @@
+.service-heading{
+    text-align: center;
+    margin-bottom: 24px;
+}
+
 .service-card-wrapper{
     margin-top: 16px;
     margin-right: 16px;
-    padding: 32px 24px;
     text-align: center;
     border-radius: 16px;
     background-color: var(--background-color);
@@ -9,6 +13,11 @@
 
 .service-card-wrapper:last-child{
     margin-right: 0;
+}
+
+.service-card-textbox{
+    padding: 32px 24px;
+
 }
 
 .service-card-name{
@@ -19,12 +28,24 @@
 
 .service-card img{
     width: 100%;
-    margin-top: 16px;
     border-radius: 16px;
     margin-bottom: 16px;
 }
 
-.service-heading{
-    text-align: center;
-    margin-bottom: 24px;
+.service-card-nav{
+    display: flex;
+    justify-content: center;
+}
+
+.service-card-nav a{
+    margin-right: 24px;
+}
+
+.service-card-nav button{
+    padding: 0 54px;
+}
+
+/* modal */
+.service-modal-btn{
+    border-color: var(--primary-color)!important;
 }

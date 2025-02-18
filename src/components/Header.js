@@ -1,5 +1,5 @@
-import { Link } from 'react-router'
-
+import { NavLink, Link, ScrollRestoration } from 'react-router'
+import ScrollToTop from './ScrollToTop'
 
 // import images
 import logo from '../assets/img/logo.jpg'
@@ -18,8 +18,8 @@ function Header(){
             </div>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid nav-wrapper">
-                <Link to="/" class="navbar-brand">
-                    <img src={logo} alt="logo-luvietnam" />
+                <Link to="/luvietnam" class="navbar-brand">
+                    <img src={logo} alt="logo-luvietnam" className='navbar-logo'/>
                 </Link>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>

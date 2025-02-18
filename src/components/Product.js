@@ -9,7 +9,7 @@ function Product(){
     return(
         <div className="product">
             <Header />
-            <Carousel title="Chúng tôi cung cấp những sản phẩm chất lượng tốt nhất" />
+            <Carousel text="Chúng tôi cung cấp những sản phẩm chất lượng tốt nhất" title="SẢN PHẨM"/>
             <ContactBanner />
             <Footer />
         </div>

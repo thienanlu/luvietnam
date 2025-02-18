@@ -1,4 +1,4 @@
-import {Routes, Route} from 'react-router-dom';
+import {ScrollRestoration, Routes, Route, Router} from 'react-router-dom';
 
 // import components
 import Home from './components/Home';
@@ -7,6 +7,7 @@ import Services from './components/Services';
 import Product from './components/Product';
 import Contact from './components/Contact';
 
+import ScrollToTop from './components/ScrollToTop';
 // import css files
 import './App.css';
 
@@ -15,6 +16,7 @@ function App() {
     <>
       <div className="main">
          <Routes>
+            {/* <ScrollRestoration /> */}
             <Route path="/luvietnam/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />

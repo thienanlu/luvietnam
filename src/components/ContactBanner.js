@@ -1,4 +1,4 @@
-import Button from "./Button";
+import ButtonComponent from "./Button";
 
 import backgroundImage from '../assets/img/carousel-img-2.jpg'
 
@@ -10,7 +10,7 @@ function ContactBanner(){
             <img src={backgroundImage} alt="sample restaurant" />
             <div className="contact-banner-text">
                 <h3 className="home-section-title">Cần tư vấn thêm?</h3>
-                <Button link="/contact" text="Liên hệ với chúng tôi" />
+                <ButtonComponent link="/contact" text="Liên hệ với chúng tôi" />
             </div>
         </section>
     )
