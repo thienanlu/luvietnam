@@ -1,8 +1,8 @@
-.carousel{
+.home-carousel{
     margin-top: 146px;
 }
 
-.carousel-inner, .carousel-item{
+.home-carousel .carousel-inner, .home-carousel .carousel-item{
     height: 650px;
 }
 
@@ -43,8 +43,11 @@
 
 .carousel-indicators > button{
     display: block;
-    height: 2px!important;
-    border-top: none;
+    height: 34px!important;
+    width: 30px!important;
+    border-top: none!important;
+    border-bottom: none!important;
+    border-radius: 50%;
     background-color: #fff;
     background-clip: border-box!important;
 }
