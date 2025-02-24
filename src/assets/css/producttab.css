@@ -1,0 +1,37 @@
+.product-gallery{
+    display: block;
+    position: relative;
+    margin-top: 24px;
+    animation: swipeUp 0.5s ease-in-out;
+}
+
+.accordion-item{
+    margin-top: 16px;
+    border: none;
+}
+
+.accordion-header{
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.accordion-header > button{
+    padding: 24px 12px;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 550;
+    color: var(--text-color);
+}
+
+.accordion-header > button:focus{
+    box-shadow: none;
+}
+
+.accordion-header > button:not(.collapsed){
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.accordion-header > button::after{
+    color: #fff;
+}

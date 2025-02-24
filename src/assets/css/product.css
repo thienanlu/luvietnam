@@ -1,0 +1,35 @@
+.product-wrapper > h3{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.product-nav{
+    padding: 24px 48px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-color);
+}
+
+.product-nav > ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 0;
+    padding: 0;
+    width: 75%;
+}
+
+.product-nav .nav-item{
+    cursor: pointer;
+    padding: 12px 12px;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 500;
+    transition: all ease-in-out 0.2s;
+}
+
+.product-nav .active-item, .product-nav .nav-item:hover{ 
+    background-color: var(--primary-color);
+    color: #fff;
+}
