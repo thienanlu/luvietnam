@@ -45,6 +45,7 @@
 
 .navbar-nav > li{
     margin-right: 20px;
+    position: relative;
 }
 
 .navbar-nav > li:last-child{
@@ -54,9 +55,23 @@
 .navbar-nav a{
     color: var(--text-color);
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .navbar-nav a:hover{
+    transition: all ease-in-out 0.5s;
     color: var(--primary-color);
+}
+
+.navbar-nav .active-item a{
+    color: var(--primary-color);
+}
+
+.navbar-nav .active-item:after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: var(--primary-color);
 }

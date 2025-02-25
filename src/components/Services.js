@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 // import components
 import Header from "./Header"
 import Footer from "./Footer"
@@ -23,9 +25,12 @@ import serviceCarouselImg10 from '../assets/img/comga/comga-5.jpg'
 
 
 function Services(){
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return(
         <div className="service">
-            <Header />
+            <Header active={3} />
             <Carousel title="DỊCH VỤ" text="DỊCH VỤ CỦA CHÚNG TÔI"/>
             <div className="service-wrapper app-item container">
                 <h3 className="service-heading home-section-title">Các gói thiết kế & setup</h3>

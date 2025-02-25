@@ -16,7 +16,6 @@ function App() {
     <>
       <div className="main">
          <Routes>
-            {/* <ScrollRestoration /> */}
             <Route path="/luvietnam/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />

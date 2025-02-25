@@ -60,6 +60,25 @@
     .first-icon{
         margin-left: 0!important;
     }
+
+    /* product page responsive */
+    .product-nav{
+        padding: 24px 8px!important;
+    }
+
+    .product-nav > ul{
+        flex-direction: column;
+    }
+
+    .product-nav li{
+        width: 100%;
+        margin-top: 9px;
+        text-align: center;
+    }
+
+    .contact-form{
+        margin-top: 20px;
+    }
 }
 
 /* landscape mobile and portrait tablet*/
@@ -100,5 +119,7 @@
     .first-icon{
         margin-left: 0!important;
     }
+
+    /* product page responsive */
 }
 

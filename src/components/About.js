@@ -1,4 +1,4 @@
-// import { ScrollRestoration } from "react-router";
+import { useEffect } from "react";
 
 // import components
 import Header from "./Header";
@@ -11,9 +11,12 @@ import founderImg from '../assets/img/founder-img.jpg'
 import '../assets/css/about.css'
 
 function About(){
+    useEffect(() => {
+            window.scrollTo(0, 0);
+          }, []);
     return(
         <div className="about">
-            <Header />
+            <Header active="2"/>
             <Carousel text="ĐÔI NÉT VỀ LUVIETNAM" title="VỀ CHÚNG TÔI"/>
             <section className="home-about-section about-wrapper container-fluid app-item">
                 <div className="row align-items-center justify-content-between">

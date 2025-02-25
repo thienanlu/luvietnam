@@ -1,4 +1,4 @@
-// import { Link } from "react-router";
+import { useEffect } from "react";
 
 // import components
 import ButtonComponent from "./Button";
@@ -18,9 +18,13 @@ import productImg1 from '../assets/img/product-item-1.jpg'
 import productImg2 from '../assets/img/product-item-2.jpg'
 
 function Home(){
+    useEffect(() => {
+            window.scrollTo(0, 0);
+          }, []);
     return(
+
         <div className="home-wrapper">
-            <Header />
+            <Header active="1"/>
             <Carousel title="LUVIETNAM" text="TƯ VẤN - THIẾT KẾ - THI CÔNG SETUP QUÁN- ĐÀO TẠO BẾP"/>
             {/* about section */}
             <section className="home-about-section container-fluid app-item">

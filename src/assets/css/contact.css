@@ -1,5 +1,5 @@
 .contact-wrapper{
-    margin-top: 146px;
+    margin-top: 114px;
 }
 
 .contact-methods-wrapper{
@@ -77,3 +77,8 @@
     color: var(--primary-color);
 }
 
+/* contact map */
+.contact-map{
+    margin-top: 20px;
+    border-radius: 16px;
+}

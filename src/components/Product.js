@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 // import components
 import Header from "./Header";
@@ -11,8 +11,12 @@ import ProductTab2 from "./ProductTab2";
 import "../assets/css/product.css"
 
 // handle active tab
-
 function Product(){
+    // scroll to top
+    useEffect(() => {
+            window.scrollTo(0, 0);
+          }, []);
+
     const [activeTab, setActiveTab] = useState(1);
     const [isActive1, setisActive1] = useState(true);
     const [isActive2, setisActive2] = useState(false);
@@ -32,7 +36,7 @@ function Product(){
 
     return(
         <div className="product">
-            <Header />
+            <Header active="4"/>
             <Carousel text="Chúng tôi cung cấp những sản phẩm chất lượng tốt nhất" title="SẢN PHẨM"/>
             <section className="product-wrapper app-item">
                 <h3 className="home-section-title">Sản phẩm</h3>
