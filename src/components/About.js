@@ -28,7 +28,7 @@ function About(){
                             <p>Với ước mơ phát triển & sáng tạo ông luôn học hỏi và không ngừng cải tiến nhằm mang lại nững giá trị cho khách hàng, đối tác & cộng đồng với tinh thần của 1 người con Việt Nam. </p>
                         </article>
                     </div>
-                    <img src={founderImg} alt="luvietnam logo" className="col-lg-4 col-sm-12" />
+                    <img src={founderImg} alt="Chân dung nhà sáng lập Luvietnam, ông Lữ Thuận Lợi" className="col-lg-4 col-sm-12 app-section-img" />
                 </div>
             </section>
 

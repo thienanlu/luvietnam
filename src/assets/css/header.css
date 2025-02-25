@@ -3,14 +3,14 @@
     display: block;
     width: 100%;
     position: fixed;
-    padding: 16px 0;
+    padding: 12px 0;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     z-index: 100;
     background-color: var(--background-color);
 }
 
 .utilities-list{
-    display: flex;
+    display: none;
     list-style-type: none;
     margin-bottom: 0;
     padding: 0 40px;
@@ -44,11 +44,17 @@
 }
 
 .navbar-nav > li{
-    margin-right: 20px
+    margin-right: 20px;
+}
+
+.navbar-nav > li:last-child{
+    margin-right: 0;
 }
 
 .navbar-nav a{
-    color: var(--text-color)
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 24px;
 }
 
 .navbar-nav a:hover{

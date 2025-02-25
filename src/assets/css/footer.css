@@ -1,6 +1,6 @@
 .footer{
     background-color: var(--background-color);
-    padding: 16px 40px!important;
+    padding: 24px 40px!important;
 }
 
 .footer-wrapper{
@@ -37,16 +37,35 @@
 }
 
 .social-media-link{
-    text-align: center;
+    text-align: right;
+}
+
+.social-media-link h4{
+    font-size: 20px;
+    font-weight: 550;
+    margin-bottom: 12px;
 }
 
 .social-media-link > a{
+    display: inline-block;
     color: var(--text-color);
     text-decoration: none;
 }
 
 .social-media-link > a > i{
-    margin-right: 8px;
+    margin-left: 16px;
     font-size: 24px;
-    color: #3B5998;
+    padding: 16px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 16px
+}
+
+.copyright i {
+    margin: 0 8px;
 }

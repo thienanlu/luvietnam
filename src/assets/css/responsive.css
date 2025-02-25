@@ -1,12 +1,13 @@
-/* homepage responsive */
 /* mobile - phone */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
+    /* homepage responsive */
     .app-item{
         padding: 80px 32px;
     }
 
-    .utilities{
-        display: none;
+    .button{
+        width: 100%;
+        text-align: center;
     }
 
     .navbar{
@@ -14,7 +15,90 @@
     }
 
     .carousel-wrapper{
-        margin-top: 122px;
+        margin-top: 114px;
+    }
+    .carousel-text > p{
+        font-size: 16px;
+    }
+
+    .carousel-text > h5{
+        font-size: 20px;
+    }
+
+    .home-about-section img{
+        width: 100%;
+    }
+
+    .home-about-textbox > p, .home-product-textbox > p{
+        text-align: justify;
+    }
+
+    .home-product-img > img{
+        display: none;
+    }
+
+    .contact-banner-text{
+        padding: 24px;
+    }
+
+    .contact-banner-text > h3{
+        font-size: 28px;
+    }
+
+    .footer-logo-wrapper{
+        text-align: center;
+    }
+    .social-media-link{
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .social-media-link > a:first-child > i:first-child{
+        margin-left: 0!important;
+    }
+
+    .first-icon{
+        margin-left: 0!important;
+    }
+}
+
+/* landscape mobile and portrait tablet*/
+@media only screen and (min-width: 576px) and (max-width: 820px) {
+    /* homepage */
+    .home-about-section img{
+        width: 100%;
+    }
+
+    .home-product-img{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .home-product-img > img{
+        width: 40%;
+        display: block;
+        position: relative!important;
+        top: 0!important;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .footer-logo-wrapper{
+        text-align: center;
+    }
+
+    .social-media-link{
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .social-media-link > a:first-child > i:first-child{
+        margin-left: 0!important;
+    }
+
+    .first-icon{
+        margin-left: 0!important;
     }
 }
 
