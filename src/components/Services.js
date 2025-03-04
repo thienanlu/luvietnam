@@ -3,9 +3,9 @@ import { useEffect } from "react";
 // import components
 import Header from "./Header"
 import Footer from "./Footer"
-import Carousel from "./Carousel";
 import ServiceCard from "./ServiceCard";
 import ContactBanner from "./ContactBanner";
+import CallBtn from "./CallBtn";
 
 // import image
 import serviceCard1 from "../assets/img/comga/comga-1.jpg";
@@ -30,9 +30,8 @@ function Services(){
       }, []);
     return(
         <div className="service">
-            <Header active={3} />
-            <Carousel title="DỊCH VỤ" text="DỊCH VỤ CỦA CHÚNG TÔI"/>
-            <div className="service-wrapper app-item container">
+            <Header active={4} />
+            <div className="service-wrapper app-item container mt-114">
                 <h3 className="service-heading home-section-title">Các gói thiết kế & setup</h3>
                 <div className="row">
                     <ServiceCard name="Mô hình Cơm Gà Da Giòn Mr.lữ" image={serviceCard1} image1={serviceCarouselImg6} image2={serviceCarouselImg7} image3={serviceCarouselImg8} image4={serviceCarouselImg9} image5={serviceCarouselImg10} />
@@ -40,6 +39,7 @@ function Services(){
                 </div>
             </div>
             <ContactBanner />
+            <CallBtn />
             <Footer />
         </div>
     )

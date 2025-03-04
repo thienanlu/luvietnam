@@ -13,7 +13,7 @@ function Contact(){
       }, []);
     return (
         <div className="contact">
-            <Header active="5"/>
+            <Header active="6"/>
             {/* <div className="box"></div> */}
             <section className="contact-wrapper container app-item">
                 <h2 className="contact-title app-item-title">Liên hệ với chúng tôi</h2>

@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import Carousel from "./Carousel";
 import HomeServiceCard from "./HomeServiceCard";
 import ContactBanner from "./ContactBanner";
+import CallBtn from "./CallBtn";
 
 
 // import css files
@@ -25,7 +26,7 @@ function Home(){
 
         <div className="home-wrapper">
             <Header active="1"/>
-            <Carousel title="LUVIETNAM" text="TƯ VẤN - THIẾT KẾ - THI CÔNG SETUP QUÁN- ĐÀO TẠO BẾP"/>
+            <Carousel title="LUVIETNAM" text="TƯ VẤN - THIẾT KẾ - THI CÔNG SETUP QUÁN - ĐÀO TẠO BẾP"/>
             {/* about section */}
             <section className="home-about-section container-fluid app-item">
                 <div className="row align-items-center justify-content-between">
@@ -40,7 +41,7 @@ function Home(){
 
             {/* service intro section */}
             <section className="home-service-section container-fluid app-item">
-                <h3 className="home-section-title">Dịch vụ của chúng tôi</h3>
+                <h3 className="home-section-title">Chúng tôi cung cấp</h3>
                 <div className="home-service-card__wrapper row">
                     <HomeServiceCard title="Tư vấn - Thiết kế quán" icon="fa-solid fa-lightbulb"/>
                     <HomeServiceCard title="Set up quán" icon="fa-solid fa-gears"/>
@@ -63,6 +64,7 @@ function Home(){
                 </div>
             </section>
             <ContactBanner />
+            <CallBtn />
             <Footer />
         </div>
     )

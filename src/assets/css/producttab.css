@@ -25,6 +25,7 @@
 
 .accordion-header > button:focus{
     box-shadow: none;
+    z-index: 0;
 }
 
 .accordion-header > button:not(.collapsed){
@@ -35,3 +36,9 @@
 .accordion-header > button::after{
     color: #fff;
 }
+
+.accordion-header > button:hover{
+    z-index: 0;
+}
+
+

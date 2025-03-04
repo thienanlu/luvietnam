@@ -7,6 +7,8 @@ import logo from '../assets/img/logo.jpg'
 import '../assets/css/footer.css'
 
 function Footer(){
+    let day = new Date()
+    let year = day.getFullYear()
     return (
         <div className="footer container-fluid">
                 <div className='row footer-wrapper'>
@@ -37,12 +39,12 @@ function Footer(){
                             <h4>Theo dõi chúng tôi</h4>
                             <Link to="https://facebook.com"><i class="fa-brands fa-facebook first-icon"></i></Link>
                             <Link to="https://tiktok.com"><i class="fa-brands fa-tiktok"></i></Link>
-                            <Link to="/contact"><i class="fa-solid fa-paper-plane"></i></Link>
+                            <Link to="/contact"><i class="fa-solid fa-envelope"></i></Link>
                         </div>
                     </div>
                 </div>
                 <div className='copyright'>
-                    <p>Copyright<i className='fa-regular fa-copyright'></i>2022 Luvietnam</p>
+                    <p>Copyright<i className='fa-regular fa-copyright'></i>{year} Luvietnam</p>
                 </div>
         </div>
     )

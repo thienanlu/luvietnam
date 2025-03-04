@@ -1,6 +1,8 @@
 .footer{
+    position: relative;
     background-color: var(--background-color);
     padding: 24px 40px!important;
+    z-index: 4;
 }
 
 .footer-wrapper{

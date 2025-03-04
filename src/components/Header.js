@@ -33,12 +33,15 @@ function Header(props){
                         <Link to="/about" class="nav-link" href="#">Giới thiệu</Link>
                     </li>
                     <li class={props.active == "3" ? "nav-item active-item" : "nav-item"}>
-                        <Link to="/services" class="nav-link" href="#">Dịch vụ</Link>
+                        <Link to="/blog" class="nav-link" href="#">Tin tức</Link>
                     </li>
                     <li class={props.active == "4" ? "nav-item active-item" : "nav-item"}>
-                        <Link to="/product" class="nav-link">Sản phẩm</Link>
+                        <Link to="/services" class="nav-link" href="#">Dịch vụ</Link>
                     </li>
                     <li class={props.active == "5" ? "nav-item active-item" : "nav-item"}>
+                        <Link to="/product" class="nav-link">Sản phẩm</Link>
+                    </li>
+                    <li class={props.active == "6" ? "nav-item active-item" : "nav-item"}>
                         <Link to="/contact" class="nav-link">Liên hệ</Link>
                     </li>
                 </ul>

@@ -4,9 +4,9 @@ import { useState, useEffect } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import ContactBanner from "./ContactBanner";
-import Carousel from "./Carousel";
 import ProductTab1 from "./ProductTab1";
 import ProductTab2 from "./ProductTab2";
+import CallBtn from "./CallBtn";
 
 import "../assets/css/product.css"
 
@@ -36,9 +36,8 @@ function Product(){
 
     return(
         <div className="product">
-            <Header active="4"/>
-            <Carousel text="Chúng tôi cung cấp những sản phẩm chất lượng tốt nhất" title="SẢN PHẨM"/>
-            <section className="product-wrapper app-item">
+            <Header active="5"/>
+            <section className="product-wrapper app-item mt-114">
                 <h3 className="home-section-title">Sản phẩm</h3>
                 <nav className="product-nav">
                     <ul>
@@ -49,6 +48,7 @@ function Product(){
                 {activeTab == 1 ? <ProductTab1 /> : <ProductTab2/> }
             </section>
             <ContactBanner />
+            <CallBtn />
             <Footer />
         </div>
     )

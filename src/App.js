@@ -6,6 +6,7 @@ import About from './components/About';
 import Services from './components/Services';
 import Product from './components/Product';
 import Contact from './components/Contact';
+import Blog from './components/Blog';
 
 import ScrollToTop from './components/ScrollToTop';
 // import css files
@@ -18,6 +19,7 @@ function App() {
          <Routes>
             <Route path="/luvietnam/" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="/blog" element={<Blog />} />
             <Route path="/services" element={<Services />} />
             <Route path="/product" element={<Product />} />
             <Route path="/contact" element={<Contact />} />

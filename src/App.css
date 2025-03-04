@@ -29,7 +29,8 @@ li, a, p{
 }
 
 .app-item{
-  padding: 72px 40px;
+  position: relative;
+  padding: 64px 40px;
 }
 
 .app-item-title{
@@ -40,6 +41,28 @@ li, a, p{
 
 .app-section-img{
   margin-top: 20px;
+}
+
+.mt-114{
+  margin-top: 114px;
+}
+
+.call-btn{
+  display: inline-block;
+  position: fixed;
+  bottom: 10%;
+  right: 20px;
+}
+
+.call-btn > a{
+  display: block;
+  z-index: 2!important;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 /* animation */
@@ -55,10 +78,20 @@ li, a, p{
 
 @keyframes fadeIn{
     from{
-      
+      opacity: 0.2;
     }
     to{
       opacity: 1;
     }
 }
 
+@keyframes fadeDown{
+  from{
+     top: 50px;
+     opacity: 0.8;
+  }
+  to{
+    top: 0;
+    opacity: 1;
+  }
+}
