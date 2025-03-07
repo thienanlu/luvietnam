@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/luvietnam/static/css/main.8b3a8496.css",
-    "main.js": "/luvietnam/static/js/main.02469439.js",
+    "main.css": "/luvietnam/static/css/main.69186860.css",
+    "main.js": "/luvietnam/static/js/main.0c04f269.js",
     "static/js/488.56f74850.chunk.js": "/luvietnam/static/js/488.56f74850.chunk.js",
-    "static/media/carousel-img-1.jpg": "/luvietnam/static/media/carousel-img-1.65e405af93f7af85b21d.jpg",
     "static/media/bunbo-1.jpg": "/luvietnam/static/media/bunbo-1.6b9dbcc874c503af45a7.jpg",
     "static/media/bunbo-2.jpg": "/luvietnam/static/media/bunbo-2.6b9dbcc874c503af45a7.jpg",
     "static/media/comga-3.jpg": "/luvietnam/static/media/comga-3.416859b416a75588dcf0.jpg",
@@ -11,10 +10,11 @@
     "static/media/comga-1.jpg": "/luvietnam/static/media/comga-1.b1bd4f57e7f96c8d56c0.jpg",
     "static/media/comga-5.jpg": "/luvietnam/static/media/comga-5.bde597bff1de6e6b3803.jpg",
     "static/media/comga-2.jpg": "/luvietnam/static/media/comga-2.ea0a871cd13ebe515a77.jpg",
-    "static/media/carousel-img-3.jpg": "/luvietnam/static/media/carousel-img-3.c75a07c5d88c90abc439.jpg",
     "static/media/comga-4.jpg": "/luvietnam/static/media/comga-4.066cf27b64c4f86fb02e.jpg",
-    "static/media/founder-img.jpg": "/luvietnam/static/media/founder-img.56d3a0f8554806483b59.jpg",
-    "static/media/carousel-img-4.jpg": "/luvietnam/static/media/carousel-img-4.9a07eabfba7706cc87ce.jpg",
+    "static/media/carousel-mobile-1.jpg": "/luvietnam/static/media/carousel-mobile-1.9a07eabfba7706cc87ce.jpg",
+    "static/media/carousel-tablet-2.jpg": "/luvietnam/static/media/carousel-tablet-2.c3a9fd41065b08985c20.jpg",
+    "static/media/carousel-tablet-1.jpg": "/luvietnam/static/media/carousel-tablet-1.4563c76474efbf564d19.jpg",
+    "static/media/carousel-mobile-2.jpg": "/luvietnam/static/media/carousel-mobile-2.8fce5346950c9f797d0c.jpg",
     "static/media/bunbo-5.jpg": "/luvietnam/static/media/bunbo-5.1f3ffe0db9c8f9c2e23f.jpg",
     "static/media/product-img-10.jpg": "/luvietnam/static/media/product-img-10.70d27464b02df5d3d037.jpg",
     "static/media/bunbo-4.jpg": "/luvietnam/static/media/bunbo-4.1f40e0dcebfc1afd2096.jpg",
@@ -26,6 +26,7 @@
     "static/media/product-img-13.jpg": "/luvietnam/static/media/product-img-13.903f06acb5b39b4aaafe.jpg",
     "static/media/product-item-2.jpg": "/luvietnam/static/media/product-item-2.903f06acb5b39b4aaafe.jpg",
     "static/media/product-img-4.jpg": "/luvietnam/static/media/product-img-4.45bfc2948f90338fc19d.jpg",
+    "static/media/founder-img.jpg": "/luvietnam/static/media/founder-img.91d34e25dea4916ce9fb.jpg",
     "static/media/product-img-1.jpg": "/luvietnam/static/media/product-img-1.47e63a33eadf1f7503de.jpg",
     "static/media/product-img-7.jpg": "/luvietnam/static/media/product-img-7.f56be7a53a9041312c83.jpg",
     "static/media/product-img-3.jpg": "/luvietnam/static/media/product-img-3.dde6d3ab53c8b4ba0bfa.jpg",
@@ -36,12 +37,12 @@
     "static/media/product-item-1.jpg": "/luvietnam/static/media/product-item-1.bcac6ff4da19489f305a.jpg",
     "static/media/logo.jpg": "/luvietnam/static/media/logo.71bde7c282c15c0260c4.jpg",
     "index.html": "/luvietnam/index.html",
-    "main.8b3a8496.css.map": "/luvietnam/static/css/main.8b3a8496.css.map",
-    "main.02469439.js.map": "/luvietnam/static/js/main.02469439.js.map",
+    "main.69186860.css.map": "/luvietnam/static/css/main.69186860.css.map",
+    "main.0c04f269.js.map": "/luvietnam/static/js/main.0c04f269.js.map",
     "488.56f74850.chunk.js.map": "/luvietnam/static/js/488.56f74850.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b3a8496.css",
-    "static/js/main.02469439.js"
+    "static/css/main.69186860.css",
+    "static/js/main.0c04f269.js"
   ]
 }
