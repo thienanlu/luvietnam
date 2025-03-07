@@ -1,8 +1,8 @@
 // import image
-import carouselImg1 from '../assets/img/carousel-img-1.jpg'
-import carouselImg2 from '../assets/img/carousel-img-2.jpg'
-import carouselImg3 from '../assets/img/carousel-img-3.jpg'
-import carouselImg4 from '../assets/img/carousel-img-4.jpg'
+import carouselMobileImg1 from '../assets/img/carousel-mobile-1.jpg'
+import carouselImg1 from '../assets/img/carousel-tablet-1.jpg'
+import carouselMobileImg2 from '../assets/img/carousel-mobile-2.jpg'
+import carouselImg2 from '../assets/img/carousel-tablet-2.jpg'
 
 import '../assets/css/carousel.css'
 
@@ -17,25 +17,27 @@ function Carousel(props){
                 </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src={carouselImg4} class="" alt="..." />
-                    <div class="carousel-text">
+                    <img src={carouselImg1} class="desktop-img" alt="..." />
+                    <img src={carouselMobileImg1} class="mobile-img" alt="..." />
+                    {/* <div class="carousel-text">
                         <h5>Cơm gà da giòn Mr.Lữ</h5>
-                        {/* <p>{props.text}</p> */}
-                    </div>
+                        <p>{props.text}</p>
+                    </div> */}
+                </div>
+                <div class="carousel-item">
+                    <img src={carouselImg2} class="desktop-img" alt="..." />
+                    <img src={carouselMobileImg2} class="mobile-img" alt="..." />
+                    {/* <div class="carousel-text">
+                        <h5>{props.title}</h5>
+                        <p>{props.text}</p>
+                    </div> */}
                 </div>
                 <div class="carousel-item">
                     <img src={carouselImg2} class="" alt="..." />
-                    <div class="carousel-text">
+                    {/* <div class="carousel-text">
                         <h5>{props.title}</h5>
                         <p>{props.text}</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src={carouselImg3} class="" alt="..." />
-                    <div class="carousel-text">
-                        <h5>{props.title}</h5>
-                        <p>{props.text}</p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">

@@ -2,14 +2,6 @@
     text-align: center;
 }
 
-.about-wrapper{
-    /* margin-top: 146px; */
-}
-
-.about-details{
-
-}
-
 .about-details > article{
     margin-top: 24px;
 }
@@ -23,4 +15,9 @@
 
 .about-details p > b{
     color: var(--primary-color);
+}
+
+.founder-img{
+    border-radius: 50%;
+    width: 300px;
 }

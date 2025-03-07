@@ -17,7 +17,7 @@ function About(){
     return(
         <div className="about">
             <Header active="2"/>
-            <section className="home-about-section about-wrapper container-fluid app-item mt-114">
+            <section className="about-wrapper container-fluid app-item mt-114">
                 <div className="row align-items-center justify-content-between">
                     <div className="about-details col-lg-8 col-sm-12">
                         <h2 className="home-section-title">Lu Vietnam</h2>
@@ -30,7 +30,7 @@ function About(){
                             <p>Với ước mơ phát triển & sáng tạo, ông luôn học hỏi và không ngừng cải tiến nhằm mang lại những giá trị cho khách hàng, đối tác & cộng đồng với tinh thần của 1 người con Việt Nam. </p>
                         </article>
                     </div>
-                    <img src={founderImg} alt="Chân dung nhà sáng lập Luvietnam, ông Lữ Thuận Lợi" className="col-lg-4 col-sm-12 app-section-img" />
+                    <img src={founderImg} alt="Chân dung nhà sáng lập Luvietnam, ông Lữ Thuận Lợi" className="col-lg-4 col-sm-12 founder-img app-section-img" />
                 </div>
             </section>
             <ContactBanner />

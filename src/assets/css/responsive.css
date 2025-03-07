@@ -22,7 +22,15 @@
     }
 
     .carousel-text > h5{
-        font-size: 20px;
+        font-size: 36px;
+    }
+
+    .mobile-img{
+        display: block!important;
+    }
+
+    .desktop-img{
+        display: none!important;
     }
 
     .home-about-section img{
