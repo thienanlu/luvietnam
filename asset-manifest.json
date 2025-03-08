@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/luvietnam/static/css/main.69186860.css",
-    "main.js": "/luvietnam/static/js/main.0c04f269.js",
-    "static/js/488.56f74850.chunk.js": "/luvietnam/static/js/488.56f74850.chunk.js",
+    "main.css": "/luvietnam/static/css/main.12a110c1.css",
+    "main.js": "/luvietnam/static/js/main.0b1dd186.js",
+    "static/js/488.9cc78663.chunk.js": "/luvietnam/static/js/488.9cc78663.chunk.js",
     "static/media/bunbo-1.jpg": "/luvietnam/static/media/bunbo-1.6b9dbcc874c503af45a7.jpg",
-    "static/media/bunbo-2.jpg": "/luvietnam/static/media/bunbo-2.6b9dbcc874c503af45a7.jpg",
     "static/media/comga-3.jpg": "/luvietnam/static/media/comga-3.416859b416a75588dcf0.jpg",
     "static/media/carousel-img-2.jpg": "/luvietnam/static/media/carousel-img-2.b1bd4f57e7f96c8d56c0.jpg",
     "static/media/comga-1.jpg": "/luvietnam/static/media/comga-1.b1bd4f57e7f96c8d56c0.jpg",
@@ -32,17 +31,19 @@
     "static/media/product-img-3.jpg": "/luvietnam/static/media/product-img-3.dde6d3ab53c8b4ba0bfa.jpg",
     "static/media/product-img-2.jpg": "/luvietnam/static/media/product-img-2.fc4a46e430ab23be3ce8.jpg",
     "static/media/product-img-11.jpg": "/luvietnam/static/media/product-img-11.93db3d291447aa3bc857.jpg",
+    "static/media/product-item-1.jpg": "/luvietnam/static/media/product-item-1.93db3d291447aa3bc857.jpg",
     "static/media/product-img-6.jpg": "/luvietnam/static/media/product-img-6.f739b32262a4a67555b9.jpg",
     "static/media/product-img-14.jpg": "/luvietnam/static/media/product-img-14.9bb0ef2108f4decd7db5.jpg",
-    "static/media/product-item-1.jpg": "/luvietnam/static/media/product-item-1.bcac6ff4da19489f305a.jpg",
+    "static/media/test-img-2.jpg": "/luvietnam/static/media/test-img-2.837342dd58995f78a2a9.jpg",
+    "static/media/test-img-1.jpg": "/luvietnam/static/media/test-img-1.72949060cddc109cf305.jpg",
     "static/media/logo.jpg": "/luvietnam/static/media/logo.71bde7c282c15c0260c4.jpg",
     "index.html": "/luvietnam/index.html",
-    "main.69186860.css.map": "/luvietnam/static/css/main.69186860.css.map",
-    "main.0c04f269.js.map": "/luvietnam/static/js/main.0c04f269.js.map",
-    "488.56f74850.chunk.js.map": "/luvietnam/static/js/488.56f74850.chunk.js.map"
+    "main.12a110c1.css.map": "/luvietnam/static/css/main.12a110c1.css.map",
+    "main.0b1dd186.js.map": "/luvietnam/static/js/main.0b1dd186.js.map",
+    "488.9cc78663.chunk.js.map": "/luvietnam/static/js/488.9cc78663.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69186860.css",
-    "static/js/main.0c04f269.js"
+    "static/css/main.12a110c1.css",
+    "static/js/main.0b1dd186.js"
   ]
 }
