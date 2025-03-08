@@ -58,7 +58,7 @@ li, a, p{
   display: block;
   z-index: 2!important;
   color: #fff;
-  padding: 10px 15px;
+  padding: 12px 17px;
   border-radius: 50%;
   cursor: pointer;
   background-color: var(--primary-color);

@@ -33,6 +33,14 @@
         display: none!important;
     }
 
+    .home-section-title{
+        text-align: center;
+    }
+
+    .home-section-title ~ p{
+        text-align: center;
+    }
+
     .home-about-section img{
         width: 100%;
     }
@@ -67,6 +75,21 @@
 
     .first-icon{
         margin-left: 0!important;
+    }
+
+
+    /* about page responsive */
+    .founder-img{
+        width: 100%!important;
+    }
+
+    /* service page */
+    .service-card-nav{
+        flex-direction: column;
+    }
+
+    .service-card-nav .button{
+        width: 100%;
     }
 
     /* product page responsive */
@@ -127,7 +150,20 @@
     .first-icon{
         margin-left: 0!important;
     }
+    /* about page responsive */
+    .founder-img{
+        width: 100%!important;
+    }
 
+    /* service page */
+    .service-card-nav{
+        flex-direction: column;
+    }
+
+    .service-card-nav .button{
+        width: 100%;
+    }
+    
     /* product page responsive */
 }
 

@@ -9,10 +9,11 @@ import '../assets/css/servicecard.css'
 
 function ServiceCard(props){
     const [modalShow, setModalShow] = useState(false);
+    const [clickedCard, setClickedCard] = useState(0);
 
 
     return(
-        <div className="service-card col-lg-6 col-sm-12">
+        <div className="service-card col-lg-6 col-sm-12" id={props.id}>
             <div className="service-card-wrapper">
                 <img src={props.image} alt="Sample restaurant setted up by Luvietnam" />
                 <div className="service-card-textbox">
@@ -25,6 +26,7 @@ function ServiceCard(props){
                             Xem hình ảnh
                         </Button>
 
+                    </div>
                         <ServiceModal
                             show={modalShow}
                             onHide={() => setModalShow(false)}
@@ -35,7 +37,6 @@ function ServiceCard(props){
                             image4={props.image4}
                             image5={props.image5}
                         />
-                    </div>
                 </div>
             </div>
         </div>
@@ -73,18 +74,18 @@ function ServiceModal(props) {
               </div>
               <div className="carousel-inner">
                   <div className="carousel-item active">
-                    <img src={props.image1} className="d-block w-100" alt="..." />
+                    <img src={props.image1} className="" alt="..." />
                   </div>
                   <div className="carousel-item">
-                    <img src={props.image2} className="d-block w-100" alt="..." />
+                    <img src={props.image2} className="" alt="..." />
                   </div>
                   <div className="carousel-item">
-                    <img src={props.image3} className="d-block w-100" alt="..."/>
+                    <img src={props.image3} className="" alt="..."/>
                   </div>
                   <div className="carousel-item">
-                    <img src={props.image4} className="d-block w-100" alt="..."/>
+                    <img src={props.image4} className="" alt="..."/>
                   </div><div className="carousel-item">
-                    <img src={props.image5} className="d-block w-100" alt="..."/>
+                    <img src={props.image5} className="" alt="..."/>
                   </div>
               </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
