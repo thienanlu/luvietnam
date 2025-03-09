@@ -2,7 +2,7 @@
 @media only screen and (max-width: 576px) {
     /* homepage responsive */
     .app-item{
-        padding: 80px 32px;
+        padding: 64px 32px;
     }
 
     .button{
@@ -55,6 +55,7 @@
 
     .contact-banner-text{
         padding: 24px;
+        max-width: 80%;
     }
 
     .contact-banner-text > h3{
@@ -92,6 +93,19 @@
         width: 100%;
     }
 
+    .modal-body, .service-modal-carousel{
+        padding: 0;
+    }
+
+    /* blog responsive */
+    .blog-card-content{
+        width: 100%!important;
+        text-align: justify;
+    }
+
+    .blog-card > img{
+        display: none;
+    }
     /* product page responsive */
     .product-nav{
         padding: 24px 8px!important;

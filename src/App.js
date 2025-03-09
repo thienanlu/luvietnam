@@ -7,6 +7,7 @@ import Services from './components/Services';
 import Product from './components/Product';
 import Contact from './components/Contact';
 import Blog from './components/Blog';
+import Article1 from './components/BlogArticle'
 
 import ScrollToTop from './components/ScrollToTop';
 // import css files
@@ -23,6 +24,7 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/product" element={<Product />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/bai-viet-ve-noi-ham-dien" element={<Article1 />} />
          </Routes>
       </div>
     </>

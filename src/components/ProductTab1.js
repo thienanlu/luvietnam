@@ -15,6 +15,12 @@ import Product11 from '../assets/img/product/product-img-11.jpg'
 import Product12 from '../assets/img/product/product-img-12.jpg'
 import Product13 from '../assets/img/product/product-img-13.jpg'
 import Product14 from '../assets/img/product/product-img-14.jpg'
+import Product15 from '../assets/img/product/product-img-15.jpg'
+import Product17 from '../assets/img/product/product-img-17.jpg'
+import Product18 from '../assets/img/product/product-img-18.jpg'
+import Product19 from '../assets/img/product/product-img-19.jpg'
+import Product20 from '../assets/img/product/product-img-20.jpg'
+import Product21 from '../assets/img/product/product-img-21.jpg'
 
 import '../assets/css/producttab.css'
 
@@ -85,13 +91,12 @@ function ProductTab1(){
                     <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" data-bs-parent="accordionPanelsStayOpenExample">
                     <div class="accordion-body container">
                         <div className='row'>
-                            <ProductCard name="Dĩa rau nhựa cao cấp" img={Product1}/>
-                            <ProductCard name="Muỗng Inox bầu" img={Product2}/>
-                            <ProductCard name="Tô nhựa cao cấp" img={Product3}/>
-                            <ProductCard name="Khay Inox" img={Product4}/>
-                            <ProductCard name="Gắp Inox" img={Product6}/>
-                            <ProductCard name="Đũa gỗ" img={Product7}/>
-                            <ProductCard name="Chén chấm" img={Product14}/>
+                            <ProductCard name="Dĩa rau nhựa cao cấp" img={Product15}/>
+                            <ProductCard name="Tô nhựa cao cấp" img={Product17}/>
+                            <ProductCard name="Khay Inox" img={Product18}/>
+                            <ProductCard name="Gắp Inox" img={Product19}/>
+                            <ProductCard name="Đũa gỗ" img={Product20}/>
+                            <ProductCard name="Chén chấm" img={Product21}/>
                         </div>
                     </div>
                     </div>

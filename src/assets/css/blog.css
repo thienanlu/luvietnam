@@ -1,7 +1,3 @@
-.blog-wrapper{
-
-}
-
 .blog-wrapper .home-section-title{
     text-align: center;
 }
@@ -39,4 +35,39 @@
     object-fit: cover;
     border-radius: 8px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* article */
+.article-nav{
+    padding: 16px 32px;
+    border-bottom: rgba(149, 157, 165, 0.2) 1px solid;
+}
+
+.article-nav > span{
+    cursor: pointer;
+    font-size: 18px;
+    transition: all ease 0.2s;
+}
+
+.article-nav > span:hover{
+    opacity: 0.6;
+}
+
+.article-title{
+    text-align: center;
+}
+
+.article-info{
+    margin-top: 20px;
+    /* padding: 0 60px; */
+}
+
+.article-content{
+    margin-top: 20px;
+    /* padding: 0 60px; */
+    text-align: justify;
+}
+
+.article-content > b{
+    color: var(--heading-color);
 }
