@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/luvietnam/static/css/main.13f49cd1.css",
-    "main.js": "/luvietnam/static/js/main.6c35f86d.js",
+    "main.css": "/luvietnam/static/css/main.268e5d5d.css",
+    "main.js": "/luvietnam/static/js/main.7fd9836b.js",
     "static/js/488.9cc78663.chunk.js": "/luvietnam/static/js/488.9cc78663.chunk.js",
     "static/media/bunbo-1.jpg": "/luvietnam/static/media/bunbo-1.6b9dbcc874c503af45a7.jpg",
+    "static/media/bunbo-2.jpg": "/luvietnam/static/media/bunbo-2.6b9dbcc874c503af45a7.jpg",
     "static/media/comga-3.jpg": "/luvietnam/static/media/comga-3.416859b416a75588dcf0.jpg",
     "static/media/carousel-img-2.jpg": "/luvietnam/static/media/carousel-img-2.b1bd4f57e7f96c8d56c0.jpg",
     "static/media/comga-1.jpg": "/luvietnam/static/media/comga-1.b1bd4f57e7f96c8d56c0.jpg",
@@ -40,16 +41,14 @@
     "static/media/product-item-1.jpg": "/luvietnam/static/media/product-item-1.93db3d291447aa3bc857.jpg",
     "static/media/product-img-6.jpg": "/luvietnam/static/media/product-img-6.f739b32262a4a67555b9.jpg",
     "static/media/product-img-14.jpg": "/luvietnam/static/media/product-img-14.9bb0ef2108f4decd7db5.jpg",
-    "static/media/test-img-2.jpg": "/luvietnam/static/media/test-img-2.837342dd58995f78a2a9.jpg",
-    "static/media/test-img-1.jpg": "/luvietnam/static/media/test-img-1.72949060cddc109cf305.jpg",
     "static/media/logo.jpg": "/luvietnam/static/media/logo.71bde7c282c15c0260c4.jpg",
     "index.html": "/luvietnam/index.html",
-    "main.13f49cd1.css.map": "/luvietnam/static/css/main.13f49cd1.css.map",
-    "main.6c35f86d.js.map": "/luvietnam/static/js/main.6c35f86d.js.map",
+    "main.268e5d5d.css.map": "/luvietnam/static/css/main.268e5d5d.css.map",
+    "main.7fd9836b.js.map": "/luvietnam/static/js/main.7fd9836b.js.map",
     "488.9cc78663.chunk.js.map": "/luvietnam/static/js/488.9cc78663.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13f49cd1.css",
-    "static/js/main.6c35f86d.js"
+    "static/css/main.268e5d5d.css",
+    "static/js/main.7fd9836b.js"
   ]
 }
