@@ -29,13 +29,6 @@ function Blog(){
                         </div>
                         <img src={BlogArticleImg1} alt="ảnh đại diện cho bài viết về nồi hầm điện" />
                     </div>
-                    <div className="blog-card">
-                        <div className="blog-card-content">
-                            <h4 className="blog-card-title">Nồi hầm điện - Giải pháp nấu nướng hiện đại, tiện lợi và an toàn</h4>
-                            <p>Tác giả: Lữ Thuận Lợi</p>
-                        </div>
-                        <img src={BlogArticleImg1} alt="ảnh đại diện cho bài viết về nồi hầm điện" />
-                    </div>
                 </section>
             </section>
             <CallBtn />

@@ -11,8 +11,8 @@ import CallBtn from "./CallBtn";
 import serviceCard1 from "../assets/img/comga/comga-1.jpg";
 import serviceCard2 from "../assets/img/bunbo/bunbo-1.jpg";
 // image for bunbo card carousel
-import serviceCarouselImg1 from '../assets/img/test-img-1.jpg'
-import serviceCarouselImg2 from '../assets/img/test-img-2.jpg'
+import serviceCarouselImg1 from '../assets/img/bunbo/bunbo-1.jpg'
+import serviceCarouselImg2 from '../assets/img/bunbo/bunbo-2.jpg'
 import serviceCarouselImg3 from '../assets/img/bunbo/bunbo-3.jpg'
 import serviceCarouselImg4 from '../assets/img/bunbo/bunbo-4.jpg'
 import serviceCarouselImg5 from '../assets/img/bunbo/bunbo-5.jpg'

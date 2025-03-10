@@ -44,7 +44,7 @@ function Footer(){
                     </div>
                 </div>
                 <div className='copyright'>
-                    <p>Copyright<i className='fa-regular fa-copyright'></i>{year} Luvietnam</p>
+                    <p>Copyright<i className='fa-regular fa-copyright'></i>{year} Luvietnam - Designed by <Link to="http://linkedin.com/in/luhoangthienan" target='_blank'>Lữ Hoàng Thiên Ân</Link></p>
                 </div>
         </div>
     )

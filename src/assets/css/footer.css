@@ -71,3 +71,7 @@
 .copyright i {
     margin: 0 8px;
 }
+
+.copyright > p:last-child{
+    margin-top: 8px;
+}

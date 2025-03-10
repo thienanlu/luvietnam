@@ -35,7 +35,7 @@ function Home(){
                         <p>Chúng tôi cung cấp dịch vụ tư vấn - thiết kế - thi công setup nhà hàng - đào tạo bếp chuyên nghiệp và cung cấp trang thiết bị & nội thất cho doanh nghiệp của bạn.</p>
                         <ButtonComponent link='/about' text="Tìm hiểu thêm" />
                     </div>
-                    <img src={logo} alt="luvietnam logo" className="col-lg-4 col-md-12 col-sm-12 app-section-img" />
+                    <img src={logo} alt="luvietnam logo" className="col-lg-4 col-md-12 col-sm-12 app-section-img" loading="lazy" />
                 </div>
             </section>
 
@@ -53,8 +53,8 @@ function Home(){
             <section className="home-product-section container-fluid app-item">
                 <div className="row align-items-center justify-content-between">
                     <div className="home-product-img app-section-img col-lg-4 col-sm-12 order-lg-1 order-sm-2">
-                        <img src={productImg1} alt="product image" className="" />
-                        <img src={productImg2} alt="product image" className=""/>
+                        <img src={productImg1} alt="product image" className="" loading="lazy" />
+                        <img src={productImg2} alt="product image" className="" loading="lazy" />
                     </div>
                     <div className="home-product-textbox col-lg-7 col-sm-12 order-lg-2 order-sm-1">
                         <h2 className="home-section-title">Sản phẩm</h2>
