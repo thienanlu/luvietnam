@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "react-router";
 
 // import components
 import ButtonComponent from "./Button";
@@ -17,6 +18,7 @@ import '../assets/css/responsive.css'
 import logo from '../assets/img/logo.jpg'
 import productImg1 from '../assets/img/product-item-1.jpg'
 import productImg2 from '../assets/img/product-item-2.jpg'
+import productImg3 from '../assets/img/product-item-3.jpg'
 
 function Home(){
     useEffect(() => {
@@ -51,15 +53,24 @@ function Home(){
 
             {/* product section */}
             <section className="home-product-section container-fluid app-item">
-                <div className="row align-items-center justify-content-between">
-                    <div className="home-product-img app-section-img col-lg-4 col-sm-12 order-lg-1 order-sm-2">
-                        <img src={productImg1} alt="product image" className="" loading="lazy" />
-                        <img src={productImg2} alt="product image" className="" loading="lazy" />
-                    </div>
-                    <div className="home-product-textbox col-lg-7 col-sm-12 order-lg-2 order-sm-1">
+                <div className="row">
+                    <div className="home-product-textbox">
                         <h2 className="home-section-title">Sản phẩm</h2>
                         <p>Chúng tôi cung cấp dịch vụ tư vấn - thiết kế - thi công setup nhà hàng - đào tạo bếp chuyên nghiệp và cung cấp trang thiết bị & nội thất cho doanh nghiệp của bạn.</p>
-                        <ButtonComponent link='/product' text="Xem ngay" />
+                    </div>
+                    <div className="home-product-gallery container">
+                        <div className="row home-product-gallery-wrapper">
+                            <div className="col-lg-4 col-sm-12 home-product-gallery__item">
+                                <img src={productImg1} alt="product 1" className="home-product-img" loading="lazy" />
+                            </div>
+                            <div className="col-lg-4 col-sm-12 home-product-gallery__item">
+                                <img src={productImg2} alt="product 2" className="home-product-img" loading="lazy" />
+                            </div>
+                            <div className="col-lg-4 col-sm-12 home-product-gallery__item">
+                                <img src={productImg3} alt="product 3" className="home-product-img" loading="lazy" />
+                            </div>
+                        </div>
+                        <Link to="/product">Xem thêm <i class="fa-solid fa-arrow-right"></i></Link>
                     </div>
                 </div>
             </section>

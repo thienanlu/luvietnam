@@ -1,4 +1,4 @@
-import {ScrollRestoration, Routes, Route, Router} from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
 
 // import components
 import Home from './components/Home';
@@ -8,8 +8,6 @@ import Product from './components/Product';
 import Contact from './components/Contact';
 import Blog from './components/Blog';
 import Article1 from './components/BlogArticle'
-
-import ScrollToTop from './components/ScrollToTop';
 // import css files
 import './App.css';
 

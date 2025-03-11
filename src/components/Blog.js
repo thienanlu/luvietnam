@@ -2,7 +2,6 @@ import { useNavigate } from "react-router";
 import Header from "./Header"
 import Footer from "./Footer"
 import CallBtn from "./CallBtn"
-import BlogArticle from "./BlogArticle";
 
 import '../assets/css/blog.css';
 

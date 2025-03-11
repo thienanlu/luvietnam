@@ -13,6 +13,21 @@
 
 .footer-col{
     padding: 0;
+    margin-top: 16px;
+}
+
+.footer-col:nth-child(2){
+    text-align: center;
+}
+
+.footer-col:nth-child(2) > h4{
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.footer-col:nth-child(2) > p{
+    font-style: italic;
 }
 
 .footer-logo{

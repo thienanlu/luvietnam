@@ -12,29 +12,14 @@ function Footer(){
     return (
         <div className="footer container-fluid">
                 <div className='row footer-wrapper'>
-                    <div className='col-lg-6 col-sm-12 footer-col footer-logo-wrapper'>
+                    <div className='col-lg-4 col-sm-12 footer-col footer-logo-wrapper'>
                         <Link to="/luvietnam"><img src={logo} alt="logo-luvietnam" className='footer-logo' /></Link>
                     </div>
-                    {/* <div className='col-lg-4 col-md-6 col-sm-12 footer-col'>
-                        <ul className='footer-nav'>
-                            <li>
-                                <Link to='/'>Trang chủ</Link>
-                            </li>
-                            <li>
-                                <Link to='/about'>Giới thiệu</Link>
-                            </li>
-                            <li>
-                                <Link to='/services'>Dịch vụ</Link>
-                            </li>
-                            <li>
-                                <Link to='/product'>Sản phẩm</Link>
-                            </li>
-                            <li>
-                                <Link to='/contact'>Liên hệ</Link>
-                            </li>
-                        </ul>
-                    </div> */}
-                    <div className='col-lg-6 col-sm-12 footer-col'>
+                    <div className='col-lg-4 col-sm-12 footer-col'>
+                        <h4>Luvietnam</h4>
+                        <p>Tư vấn - Thiết kế - Setup quán ăn</p>
+                    </div>
+                    <div className='col-lg-4 col-sm-12 footer-col'>
                         <div className='social-media-link'>
                             <h4>Theo dõi chúng tôi</h4>
                             <Link to="https://facebook.com"><i class="fa-brands fa-facebook first-icon"></i></Link>
@@ -44,7 +29,7 @@ function Footer(){
                     </div>
                 </div>
                 <div className='copyright'>
-                    <p>Copyright<i className='fa-regular fa-copyright'></i>{year} Luvietnam - Designed by <Link to="http://linkedin.com/in/luhoangthienan" target='_blank'>Lữ Hoàng Thiên Ân</Link></p>
+                    <p>Copyright<i className='fa-regular fa-copyright'></i>{year} Luvietnam - Designed by <Link to="https://linkedin.com" target='_blank'>Lữ Hoàng Thiên Ân</Link></p>
                 </div>
         </div>
     )

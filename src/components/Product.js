@@ -22,12 +22,12 @@ function Product(){
     const [isActive2, setisActive2] = useState(false);
 
     function handleTabChange(){
-        if(activeTab == 1){
+        if(activeTab === 1){
             setActiveTab(2);
             setisActive1(false);
             setisActive2(true)
         }
-        else if(activeTab == 2){
+        else if(activeTab === 2){
             setActiveTab(1);
             setisActive1(true);
             setisActive2(false);
@@ -45,7 +45,7 @@ function Product(){
                         <li onClick={handleTabChange} className={isActive2 ? "nav-item active-item" : "nav-item"}>Bún bò huế</li>
                     </ul>
                 </nav>
-                {activeTab == 1 ? <ProductTab1 /> : <ProductTab2/> }
+                {activeTab === 1 ? <ProductTab1 /> : <ProductTab2/> }
             </section>
             <ContactBanner />
             <CallBtn />

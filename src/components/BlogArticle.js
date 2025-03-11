@@ -46,7 +46,7 @@ function BlogArticle(){
                     <li>Hầm nhừ: Nồi hầm điện hầm nhừ các loại thực phẩm cứng đầu như gân, xương, giúp món ăn mềm ngon, dễ tiêu hóa. </li>
                 </p>
                 <div className="article-product-banner row">
-                    <img src={ArticleProductImg} className="article-img col-lg-3 col-sm-12"/>
+                    <img src={ArticleProductImg} className="article-img col-lg-3 col-sm-12" alt=""/>
                     <div className="article-product-banner__text col-lg-9 col-sm-12">
                         <h3 className="article-product-banner__title">Nồi hầm điện - Nồi phở Inox điện</h3>
                         <ButtonComponent link="/contact" text="Liên hệ mua hàng ngay" />

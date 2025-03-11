@@ -1,5 +1,4 @@
-import { NavLink, Link, ScrollRestoration } from 'react-router'
-import ScrollToTop from './ScrollToTop'
+import { Link} from 'react-router'
 
 // import images
 import logo from '../assets/img/logo.jpg'
@@ -26,22 +25,22 @@ function Header(props){
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class={props.active == "1" ? "nav-item active-item" : "nav-item"}>
+                    <li class={props.active === "1" ? "nav-item active-item" : "nav-item"}>
                         <Link to="/luvietnam/" class="nav-link" aria-current="page" href="#">Trang chủ</Link>
                     </li>
-                    <li class={props.active == "2" ? "nav-item active-item" : "nav-item"}>
+                    <li class={props.active === "2" ? "nav-item active-item" : "nav-item"}>
                         <Link to="/about" class="nav-link" href="#">Giới thiệu</Link>
                     </li>
-                    <li class={props.active == "3" ? "nav-item active-item" : "nav-item"}>
+                    <li class={props.active === "3" ? "nav-item active-item" : "nav-item"}>
                         <Link to="/blog" class="nav-link" href="#">Tin tức</Link>
                     </li>
-                    <li class={props.active == "4" ? "nav-item active-item" : "nav-item"}>
+                    <li class={props.active === "4" ? "nav-item active-item" : "nav-item"}>
                         <Link to="/services" class="nav-link" href="#">Dịch vụ</Link>
                     </li>
-                    <li class={props.active == "5" ? "nav-item active-item" : "nav-item"}>
+                    <li class={props.active === "5" ? "nav-item active-item" : "nav-item"}>
                         <Link to="/product" class="nav-link">Sản phẩm</Link>
                     </li>
-                    <li class={props.active == "6" ? "nav-item active-item" : "nav-item"}>
+                    <li class={props.active === "6" ? "nav-item active-item" : "nav-item"}>
                         <Link to="/contact" class="nav-link">Liên hệ</Link>
                     </li>
                 </ul>

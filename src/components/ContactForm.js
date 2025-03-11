@@ -4,7 +4,9 @@ import { useState } from "react";
 // Web3Form Plugin
 export default function ContactForm() {
     const [result, setResult] = useState("");
-
+    
+    console.log(result)
+    
     const onSubmit = async (event) => {
       event.preventDefault();
       setResult("Sending....");
@@ -12,7 +14,7 @@ export default function ContactForm() {
 
 
       // access key: 8d50f287-73a6-4522-9460-971d1140e49a
-      formData.append("access_key", "ACCESS_KEY");
+      formData.append("access_key", "8d50f287-73a6-4522-9460-971d1140e49a");
 
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
