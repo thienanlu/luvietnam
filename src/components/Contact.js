@@ -32,6 +32,10 @@ function Contact(){
                             <i class="fa-solid fa-clock"></i>
                             <p><span>Thời gian làm việc: </span>08:30 - 17:00</p>
                         </div>
+                        <div className="contact-info-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p><span>Email: </span>lufoodvietnam@gmail.com</p>
+                        </div>
                     </div>
                     <div className="contact-form col-lg-6 col-sm-12">
                         <ContactForm />

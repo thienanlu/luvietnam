@@ -1,8 +1,8 @@
 // import image
-import carouselMobileImg1 from '../assets/img/carousel-mobile-1.jpg'
-import carouselImg1 from '../assets/img/carousel-tablet-1.jpg'
-import carouselMobileImg2 from '../assets/img/carousel-mobile-2.jpg'
-import carouselImg2 from '../assets/img/carousel-tablet-2.jpg'
+import carouselMobileImg1 from '../assets/img/carousel-mobile-1.webp'
+import carouselImg1 from '../assets/img/carousel-tablet-1.webp'
+import carouselMobileImg2 from '../assets/img/carousel-mobile-2.webp'
+import carouselImg2 from '../assets/img/carousel-tablet-2.webp'
 
 import '../assets/css/carousel.css'
 

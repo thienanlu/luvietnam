@@ -44,7 +44,7 @@ li, a, p, button{
 }
 
 .mt-114{
-  margin-top: 114px;
+  margin-top: 104px;
 }
 
 .call-btn{
@@ -52,11 +52,11 @@ li, a, p, button{
   position: fixed;
   bottom: 10%;
   right: 20px;
+  z-index: 10!important;
 }
 
 .call-btn > a{
   display: block;
-  z-index: 2!important;
   color: #fff;
   padding: 12px 17px;
   border-radius: 50%;

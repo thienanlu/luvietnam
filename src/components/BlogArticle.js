@@ -50,6 +50,7 @@ function BlogArticle(){
                     <div className="article-product-banner__text col-lg-9 col-sm-12">
                         <h3 className="article-product-banner__title">Nồi hầm điện - Nồi phở Inox điện</h3>
                         <ButtonComponent link="/contact" text="Liên hệ mua hàng ngay" />
+                        <ButtonComponent link="/product" text="Xem danh mục sản phẩm" />
                     </div>
                 </div>
             </article>

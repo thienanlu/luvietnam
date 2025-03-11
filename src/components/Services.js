@@ -8,16 +8,16 @@ import ContactBanner from "./ContactBanner";
 import CallBtn from "./CallBtn";
 
 // import image
-import serviceCard1 from "../assets/img/comga/comga-1.jpg";
-import serviceCard2 from "../assets/img/bunbo/bunbo-1.jpg";
+import serviceCard1 from "../assets/img/comga/comga-1.webp";
+import serviceCard2 from "../assets/img/bunbo/bunbo-1.webp";
 // image for bunbo card carousel
-import serviceCarouselImg1 from '../assets/img/bunbo/bunbo-1.jpg'
+import serviceCarouselImg1 from '../assets/img/bunbo/bunbo-1.webp'
 import serviceCarouselImg2 from '../assets/img/bunbo/bunbo-2.jpg'
 import serviceCarouselImg3 from '../assets/img/bunbo/bunbo-3.jpg'
 import serviceCarouselImg4 from '../assets/img/bunbo/bunbo-4.jpg'
 import serviceCarouselImg5 from '../assets/img/bunbo/bunbo-5.jpg'
 // image for comga card carousel
-import serviceCarouselImg6 from '../assets/img/comga/comga-1.jpg'
+import serviceCarouselImg6 from '../assets/img/comga/comga-1.webp'
 import serviceCarouselImg7 from '../assets/img/comga/comga-2.jpg'
 import serviceCarouselImg8 from '../assets/img/comga/comga-3.jpg'
 import serviceCarouselImg9 from '../assets/img/comga/comga-4.jpg'
@@ -30,7 +30,7 @@ function Services(){
       }, []);
     return(
         <div className="service">
-            <Header active={4} />
+            <Header active="4" />
             <div className="service-wrapper app-item container mt-114">
                 <h3 className="service-heading home-section-title">Các gói thiết kế & setup</h3>
                 <div className="row">
