@@ -25,14 +25,6 @@
         font-size: 36px;
     }
 
-    .mobile-img{
-        display: block!important;
-    }
-
-    .desktop-img{
-        display: none!important;
-    }
-
     .home-section-title{
         text-align: center;
     }

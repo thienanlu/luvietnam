@@ -56,7 +56,6 @@ li, a, p, button{
   z-index: 10!important;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   animation: callBtn ease-in-out 1s infinite;
-  animation-delay: 2s;
 }
 
 .call-btn > a{
