@@ -8,6 +8,7 @@ import Product from './components/Product';
 import Contact from './components/Contact';
 import Blog from './components/Blog';
 import Article1 from './components/BlogArticle'
+import BlogArticle2 from './components/BlogArticle2';
 // import css files
 import './App.css';
 
@@ -23,6 +24,7 @@ function App() {
             <Route path="/product" element={<Product />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/bai-viet-ve-noi-ham-dien" element={<Article1 />} />
+            <Route path="/4-dieu-can-luu-y-khi-chon-dia-diem-kinh-doanh-an-uong" element={<BlogArticle2 />} />
          </Routes>
       </div>
     </>

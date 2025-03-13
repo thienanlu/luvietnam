@@ -1,5 +1,7 @@
-.about-projects-title{
-    text-align: center;
+.about-details{
+    border: 2px solid var(--primary-color);
+    padding: 28px;
+    border-radius: 16px;
 }
 
 .about-details > article{

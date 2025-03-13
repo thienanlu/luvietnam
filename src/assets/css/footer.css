@@ -90,3 +90,7 @@
 .copyright > p:last-child{
     margin-top: 8px;
 }
+
+.copyright a{
+    text-decoration: none;
+}
