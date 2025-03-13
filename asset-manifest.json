@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/luvietnam/static/css/main.307ddd1d.css",
+    "main.css": "/luvietnam/static/css/main.eddaed3d.css",
     "main.js": "/luvietnam/static/js/main.db32ad75.js",
     "static/js/488.9cc78663.chunk.js": "/luvietnam/static/js/488.9cc78663.chunk.js",
     "static/media/bunbo-2.jpg": "/luvietnam/static/media/bunbo-2.6b9dbcc874c503af45a7.jpg",
@@ -47,12 +47,12 @@
     "static/media/logo.jpg": "/luvietnam/static/media/logo.71bde7c282c15c0260c4.jpg",
     "static/media/blog1-img.jpg": "/luvietnam/static/media/blog1-img.24b55e8240a45b67237b.jpg",
     "index.html": "/luvietnam/index.html",
-    "main.307ddd1d.css.map": "/luvietnam/static/css/main.307ddd1d.css.map",
+    "main.eddaed3d.css.map": "/luvietnam/static/css/main.eddaed3d.css.map",
     "main.db32ad75.js.map": "/luvietnam/static/js/main.db32ad75.js.map",
     "488.9cc78663.chunk.js.map": "/luvietnam/static/js/488.9cc78663.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.307ddd1d.css",
+    "static/css/main.eddaed3d.css",
     "static/js/main.db32ad75.js"
   ]
 }
