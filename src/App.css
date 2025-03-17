@@ -12,6 +12,7 @@ h1,h2,h3,h4,h5,h6{
 li, a, p, button{
   font-family: "Nunito", serif!important;
   font-size: 20px;
+  line-height: 32px;
   margin-bottom: 0;
   color: var(--text-color);
 }
@@ -89,11 +90,11 @@ li, a, p, button{
 
 @keyframes fadeDown{
   from{
-     top: 50px;
+     top: -100px;
      opacity: 0.8;
   }
   to{
-    top: 0;
+    top: 26%;
     opacity: 1;
   }
 }

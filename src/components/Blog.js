@@ -27,20 +27,20 @@ function Blog(){
                 <h2 className="home-section-title">Bài viết nổi bật</h2>
                 <section className="blog-gallery container">
                     <div className="row blog-gallery-wrapper">
-                        <div className="col-lg-4 col-sm-12">
-                            <div className="blog-card" onClick={renderArticle1}>
-                                <img src={BlogArticleImg1} alt="ảnh đại diện cho bài viết về nồi hầm điện" />
+                    <div className="col-lg-4 col-sm-12">
+                            <div className="blog-card" onClick={renderArticle2}>
+                                <img src={BlogArticleImg2} alt="ảnh đại diện cho bài viết về nồi hầm điện" />
                                 <div className="blog-card-content">
-                                    <h4 className="blog-card-title">Nồi hầm điện - Giải pháp nấu nướng hiện đại, tiện lợi và an toàn</h4>
+                                    <h4 className="blog-card-title">4 điều cần lưu ý khi chọn 1 địa điểm kinh doanh ăn uống!</h4>
                                     <p>Tác giả: Lữ Thuận Lợi</p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-4 col-sm-12">
-                            <div className="blog-card" onClick={renderArticle2}>
-                                <img src={BlogArticleImg2} alt="ảnh đại diện cho bài viết về nồi hầm điện" />
+                            <div className="blog-card" onClick={renderArticle1}>
+                                <img src={BlogArticleImg1} alt="ảnh đại diện cho bài viết về nồi hầm điện" />
                                 <div className="blog-card-content">
-                                    <h4 className="blog-card-title">4 điều cần lưu ý khi chọn 1 địa điểm kinh doanh ăn uống!</h4>
+                                    <h4 className="blog-card-title">Nồi hầm điện - Giải pháp nấu nướng hiện đại, tiện lợi và an toàn</h4>
                                     <p>Tác giả: Lữ Thuận Lợi</p>
                                 </div>
                             </div>

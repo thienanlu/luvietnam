@@ -17,8 +17,13 @@
     margin-bottom: 0;
 }
 
-.home-about-textbox > p{
+.home-about-textbox p{
     margin-top: 20px;
+    text-align: justify;
+}
+
+.home-about-textbox p > b{
+    color: var(--primary-color);
 }
 
 /* service section */

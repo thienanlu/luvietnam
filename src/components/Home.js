@@ -14,11 +14,13 @@ import CallBtn from "./CallBtn";
 // import css files
 import '../assets/css/home.css'
 import '../assets/css/responsive.css'
+
 // import image
 import logo from '../assets/img/logo.jpg'
 import productImg1 from '../assets/img/product-item-1.jpg'
 import productImg2 from '../assets/img/product-item-2.jpg'
 import productImg3 from '../assets/img/product-item-3.jpg'
+import founderImg from '../assets/img/founder-img.jpg'
 
 function Home(){
     useEffect(() => {
@@ -34,10 +36,11 @@ function Home(){
                 <div className="row align-items-center justify-content-between">
                     <div className="home-about-textbox col-lg-8 col-md-12 col-sm-12">
                         <h2 className="home-section-title">Về chúng tôi</h2>
-                        <p>Chúng tôi cung cấp dịch vụ tư vấn - thiết kế - thi công setup nhà hàng - đào tạo bếp chuyên nghiệp và cung cấp trang thiết bị & nội thất cho doanh nghiệp của bạn.</p>
+                        <p><b>Luvietnam - Thiết kế và setup quán ăn chuyên nghiệp.</b> <p>Chúng tôi biến ý tưởng của bạn thành không gian ẩm thực độc đáo, thu hút và hiệu quả. 
+                            Tin cậy LuVietnam để khởi đầu hành trình kinh doanh đầy cảm hứng!.</p> </p>
                         <ButtonComponent link='/about' text="Tìm hiểu thêm" />
                     </div>
-                    <img src={logo} alt="luvietnam logo" className="col-lg-4 col-md-12 col-sm-12 app-section-img" loading="lazy" />
+                    <img src={founderImg} alt="luvietnam logo" className="col-lg-4 col-md-12 col-sm-12 app-section-img" loading="lazy" />
                 </div>
             </section>
 
@@ -56,7 +59,7 @@ function Home(){
                 <div className="row">
                     <div className="home-product-textbox">
                         <h2 className="home-section-title">Sản phẩm</h2>
-                        <p>Chúng tôi cung cấp dịch vụ tư vấn - thiết kế - thi công setup nhà hàng - đào tạo bếp chuyên nghiệp và cung cấp trang thiết bị & nội thất cho doanh nghiệp của bạn.</p>
+                        <p>Chúng tôi mang đến giải pháp toàn diện với nội thất chất lượng và nguyên liệu tươi ngon, giúp bạn xây dựng không gian và thực đơn hoàn hảo. Đồng hành cùng LuVietnam để tạo nên dấu ấn riêng cho quán ăn của bạn!</p>
                     </div>
                     <div className="home-product-gallery container">
                         <div className="row home-product-gallery-wrapper">
