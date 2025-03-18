@@ -2,11 +2,8 @@ import { useNavigate } from "react-router";
 
 import Header from "./Header";
 import Footer from "./Footer";
-import ButtonComponent from "./Button";
 import CallBtn from "./CallBtn";
 import ContactBanner from "./ContactBanner";
-
-import ArticleProductImg from '../assets/img/product/product-img-9.jpg'
 
 function BlogArticle2(){
     const navigate = useNavigate();

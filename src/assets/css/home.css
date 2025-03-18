@@ -4,7 +4,7 @@
 /* about section */
 .home-about-section img{
     padding: 0;
-    width: 280px;
+    width: 250px;
     border-radius: 16px;
     object-fit: contain;
 }
@@ -24,26 +24,17 @@
 
 .home-about-textbox p > b{
     color: var(--primary-color);
+    font-size: 24px;
 }
 
 /* service section */
 .home-service-section .home-section-title{
     position: relative;
     text-align: center;
-    margin-bottom: 42px;
+    margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.home-service-section .home-section-title::after{
-    content: "";
-    display: block;
-    position: absolute;
-    top: 140%;
-    height: 2px;
-    width: 20%;
-    background-color: var(--heading-color);
 }
 
 .home-service-card__wrapper{
@@ -81,6 +72,7 @@
 
 .home-product-textbox > p{
     margin-top: 20px;
+    padding: 0 24px;
 }
 
 .home-product-gallery{
@@ -135,7 +127,7 @@
 
 .home-product-gallery__item > img{
     object-fit: cover;
-    width: 75%;
+    width: 65%;
     border-radius: 8px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }

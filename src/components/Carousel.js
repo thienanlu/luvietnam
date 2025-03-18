@@ -1,9 +1,7 @@
 import Slider from "react-slick";
 
-// import image
-import carouselMobileImg1 from '../assets/img/carousel-mobile-1.webp'
+// import image=
 import carouselImg1 from '../assets/img/carousel-img-1.webp'
-import carouselMobileImg2 from '../assets/img/carousel-mobile-2.webp'
 import carouselImg2 from '../assets/img/carousel-img-2.webp'
 import carouselImg3 from '../assets/img/carousel-img-3.webp'
 import carouselImg4 from '../assets/img/carousel-img-4.webp'
@@ -32,7 +30,7 @@ function Carousel(){
                             <ButtonComponent link="/about" text="Về chúng tôi"/>
                             <ButtonComponent link="/services" text="Tìm hiểu thêm"/>
                     </div>
-                    <img src={carouselImg1} class="slider-img" alt="First item" />
+                    <img src={carouselImg1} class="slider-img" alt="" />
                 </div>
                 <div class="slider-item">
                     <div className='slider-text'>
@@ -40,23 +38,23 @@ function Carousel(){
                         <ButtonComponent link="/about" text="Về chúng tôi"/>
                         <ButtonComponent link="/services" text="Tìm hiểu thêm"/>
                     </div>
-                    <img src={carouselImg2} class="slider-img" alt="First item" />
+                    <img src={carouselImg2} class="slider-img" alt="" />
                 </div>
                 <div class="slider-item">
                     <div className='slider-text'>
                         <h5 className='slider-item-title'>CƠM GÀ DA GIÒN MR.LỮ</h5>
                         <ButtonComponent link="/about" text="Về chúng tôi"/>
-                        <ButtonComponent link="/services" text="Tìm hiểu thêm"/>
+                        <ButtonComponent link="/product" text="Tìm hiểu thêm"/>
                     </div>
-                    <img src={carouselImg3} class="slider-img" alt="First item" />
+                    <img src={carouselImg3} class="slider-img" alt="" />
                 </div>
                 <div class="slider-item">
                     <div className='slider-text'>
                         <h5 className='slider-item-title'>BÚN BÒ HUẾ NGON SỐ 1</h5>
                         <ButtonComponent link="/about" text="Về chúng tôi"/>
-                        <ButtonComponent link="/services" text="Tìm hiểu thêm"/>
+                        <ButtonComponent link="/product" text="Tìm hiểu thêm"/>
                     </div>
-                    <img src={carouselImg4} class="slider-img" alt="First item" />
+                    <img src={carouselImg4} class="slider-img" alt="" />
                 </div>
                 </Slider>
 

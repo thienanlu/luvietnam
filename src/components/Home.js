@@ -16,7 +16,6 @@ import '../assets/css/home.css'
 import '../assets/css/responsive.css'
 
 // import image
-import logo from '../assets/img/logo.jpg'
 import productImg1 from '../assets/img/product-item-1.jpg'
 import productImg2 from '../assets/img/product-item-2.jpg'
 import productImg3 from '../assets/img/product-item-3.jpg'
@@ -34,13 +33,13 @@ function Home(){
             {/* about section */}
             <section className="home-about-section container-fluid app-item">
                 <div className="row align-items-center justify-content-between">
-                    <div className="home-about-textbox col-lg-8 col-md-12 col-sm-12">
+                    <div className="home-about-textbox col-lg-8 col-md-8 col-sm-12">
                         <h2 className="home-section-title">Về chúng tôi</h2>
                         <p><b>Luvietnam - Thiết kế và setup quán ăn chuyên nghiệp.</b> <p>Chúng tôi biến ý tưởng của bạn thành không gian ẩm thực độc đáo, thu hút và hiệu quả. 
-                            Tin cậy LuVietnam để khởi đầu hành trình kinh doanh đầy cảm hứng!.</p> </p>
+                            Tin cậy Luvietnam để khởi đầu hành trình kinh doanh đầy cảm hứng!</p> </p>
                         <ButtonComponent link='/about' text="Tìm hiểu thêm" />
                     </div>
-                    <img src={founderImg} alt="luvietnam logo" className="col-lg-4 col-md-12 col-sm-12 app-section-img" loading="lazy" />
+                    <img src={founderImg} alt="luvietnam logo" className="col-lg-4 col-md-3 col-sm-12 app-section-img" loading="lazy" />
                 </div>
             </section>
 
@@ -63,14 +62,14 @@ function Home(){
                     </div>
                     <div className="home-product-gallery container">
                         <div className="row home-product-gallery-wrapper">
-                            <div className="col-lg-4 col-sm-12 home-product-gallery__item">
-                                <img src={productImg1} alt="product 1" className="home-product-img" loading="lazy" />
+                            <div className="col-lg-4 col-md-4 col-sm-12 home-product-gallery__item">
+                                <img src={productImg1} alt="product 1" className="" loading="lazy" />
                             </div>
-                            <div className="col-lg-4 col-sm-12 home-product-gallery__item">
-                                <img src={productImg2} alt="product 2" className="home-product-img" loading="lazy" />
+                            <div className="col-lg-4 col-md-4 col-sm-12 home-product-gallery__item">
+                                <img src={productImg2} alt="product 2" className="" loading="lazy" />
                             </div>
-                            <div className="col-lg-4 col-sm-12 home-product-gallery__item">
-                                <img src={productImg3} alt="product 3" className="home-product-img" loading="lazy" />
+                            <div className="col-lg-4 col-md-4 col-sm-12 home-product-gallery__item">
+                                <img src={productImg3} alt="product 3" className="" loading="lazy" />
                             </div>
                         </div>
                         <Link to="/product">Xem thêm <i class="fa-solid fa-arrow-right"></i></Link>

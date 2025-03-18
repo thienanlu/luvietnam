@@ -9,7 +9,6 @@ import '../assets/css/servicecard.css'
 
 function ServiceCard(props){
     const [modalShow, setModalShow] = useState(false);
-    const [clickedCard, setClickedCard] = useState(0);
 
 
     return(
