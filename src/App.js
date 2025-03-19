@@ -9,6 +9,8 @@ import Contact from './components/Contact';
 import Blog from './components/Blog';
 import Article1 from './components/BlogArticle'
 import BlogArticle2 from './components/BlogArticle2';
+import ServiceModel1 from './components/ServiceModel1';
+
 // import css files
 import './App.css';
 
@@ -25,6 +27,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/bai-viet-ve-noi-ham-dien" element={<Article1 />} />
             <Route path="/4-dieu-can-luu-y-khi-chon-dia-diem-kinh-doanh-an-uong" element={<BlogArticle2 />} />
+            <Route path="/mo-hinh-quan-com-ga-da-gion" element={<ServiceModel1 />} />
          </Routes>
       </div>
     </>

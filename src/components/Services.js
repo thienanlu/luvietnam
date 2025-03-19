@@ -32,11 +32,14 @@ function Services(){
         <div className="service">
             <Header active="4" />
             <div className="service-wrapper app-item container mt-114">
-                <h3 className="service-heading home-section-title">Các gói thiết kế & setup</h3>
+                <h3 className="service-heading app-item-title">Các gói thiết kế & setup</h3>
                 <div className="row">
                     <ServiceCard name="Mô hình Cơm Gà Da Giòn Mr.lữ" image={serviceCard1} image1={serviceCarouselImg6} image2={serviceCarouselImg7} image3={serviceCarouselImg8} image4={serviceCarouselImg9} image5={serviceCarouselImg10} id="1"/>
                     <ServiceCard name="Mô hình Bún Bò Huế Ngon số 1" image={serviceCard2} image1={serviceCarouselImg1} image2={serviceCarouselImg2} image3={serviceCarouselImg3} image4={serviceCarouselImg4} image5={serviceCarouselImg5} id="2"/>
                 </div>
+            </div>
+            <div className="our-projects app-item">
+                <h3 className="app-item-title">Một số dự án của chúng tôi</h3>
             </div>
             <ContactBanner />
             <CallBtn />

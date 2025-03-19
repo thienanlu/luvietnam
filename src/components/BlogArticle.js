@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router";
+import { useEffect } from "react";
 
 import Header from "./Header";
 import Footer from "./Footer";
@@ -8,6 +9,10 @@ import CallBtn from "./CallBtn";
 import ArticleProductImg from '../assets/img/product/product-img-9.jpg'
 
 function BlogArticle(){
+    useEffect(() => {
+                    window.scrollTo(0, 0);
+                  }, []);
+
     const navigate = useNavigate();
     const returnPrevious = () => {
         navigate(-1)

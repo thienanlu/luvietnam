@@ -4,7 +4,6 @@
 /* about section */
 .home-about-section img{
     padding: 0;
-    width: 250px;
     border-radius: 16px;
     object-fit: contain;
 }

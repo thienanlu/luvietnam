@@ -45,7 +45,7 @@ li, a, p, button{
 }
 
 .mt-114{
-  margin-top: 104px;
+  margin-top: 99px;
 }
 
 .call-btn{
@@ -88,14 +88,12 @@ li, a, p, button{
     }
 }
 
-@keyframes fadeDown{
+@keyframes slideDown{
   from{
-     top: -100px;
-     opacity: 0.8;
+    transform: translateY(-30px)
   }
   to{
-    top: 26%;
-    opacity: 1;
+    transform: translateY(15px);
   }
 }
 

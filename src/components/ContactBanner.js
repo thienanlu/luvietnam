@@ -1,6 +1,6 @@
 import ButtonComponent from "./Button";
 
-import backgroundImage from '../assets/img/carousel-img-1.webp'
+import backgroundImage from '../assets/img/carousel-img-4.webp'
 
 import '../assets/css/contactbanner.css'
 

@@ -33,13 +33,13 @@ function Home(){
             {/* about section */}
             <section className="home-about-section container-fluid app-item">
                 <div className="row align-items-center justify-content-between">
-                    <div className="home-about-textbox col-lg-8 col-md-8 col-sm-12">
+                    <div className="home-about-textbox col-lg-8 col-md-6 col-sm-12">
                         <h2 className="home-section-title">Về chúng tôi</h2>
                         <p><b>Luvietnam - Thiết kế và setup quán ăn chuyên nghiệp.</b> <p>Chúng tôi biến ý tưởng của bạn thành không gian ẩm thực độc đáo, thu hút và hiệu quả. 
                             Tin cậy Luvietnam để khởi đầu hành trình kinh doanh đầy cảm hứng!</p> </p>
                         <ButtonComponent link='/about' text="Tìm hiểu thêm" />
                     </div>
-                    <img src={founderImg} alt="luvietnam logo" className="col-lg-4 col-md-3 col-sm-12 app-section-img" loading="lazy" />
+                    <img src={founderImg} alt="luvietnam logo" className="col-lg-3 col-md-4 col-sm-12 app-section-img" loading="lazy" />
                 </div>
             </section>
 
@@ -58,7 +58,7 @@ function Home(){
                 <div className="row">
                     <div className="home-product-textbox">
                         <h2 className="home-section-title">Sản phẩm</h2>
-                        <p>Chúng tôi mang đến giải pháp toàn diện với nội thất chất lượng và nguyên liệu tươi ngon, giúp bạn xây dựng không gian và thực đơn hoàn hảo. Đồng hành cùng LuVietnam để tạo nên dấu ấn riêng cho quán ăn của bạn!</p>
+                        <p>Chúng tôi mang đến giải pháp toàn diện với nội thất chất lượng và nguyên liệu tươi ngon, giúp bạn xây dựng không gian và thực đơn hoàn hảo. Đồng hành cùng Luvietnam để tạo nên dấu ấn riêng cho quán ăn của bạn!</p>
                     </div>
                     <div className="home-product-gallery container">
                         <div className="row home-product-gallery-wrapper">

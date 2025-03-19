@@ -5,7 +5,7 @@ import { useState } from "react";
 
 import ButtonComponent from "./Button";
 
-import '../assets/css/servicecard.css'
+import '../assets/css/service.css'
 
 function ServiceCard(props){
     const [modalShow, setModalShow] = useState(false);
@@ -18,7 +18,7 @@ function ServiceCard(props){
                 <div className="service-card-textbox">
                     <h3 className="service-card-name">{props.name}</h3>
                     <div className="service-card-nav">
-                        <ButtonComponent link="/contact" text="Liên hệ nhận tư vấn" />
+                        <ButtonComponent link="/mo-hinh-quan-com-ga-da-gion" text="Chi tiết" />
 
                         {/* open button modal for project images */}
                         <Button variant="primary" onClick={() => setModalShow(true)} className='button service-modal-btn'>
