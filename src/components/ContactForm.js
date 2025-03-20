@@ -4,9 +4,9 @@ import { useState } from "react";
 // Web3Form Plugin
 export default function ContactForm() {
     const [result, setResult] = useState("");
-    
+
     console.log(result)
-    
+
     const onSubmit = async (event) => {
       event.preventDefault();
       setResult("Sending....");

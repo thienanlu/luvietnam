@@ -42,6 +42,7 @@
 .service-card-nav .button{
     font-size: 18px;
     margin-right: 16px;
+    width: 100%;
 }
 
 .service-card-nav .button:last-child{
@@ -74,15 +75,6 @@
     background-color: var(--primary-color)!important;
 }
 
-.service-carousel .carousel-item > img{
-    border-radius: 8px;
-    width: 100%;
-    height: 100%;
-}
-
-.service-carousel .carousel-item{
-    margin: 16px 0 56px 0 ;
-}
 
 .carousel-indicators [data-bs-target] {
     background-clip: border-box;

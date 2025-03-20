@@ -5,23 +5,16 @@ import Header from "./Header"
 import Footer from "./Footer"
 import ServiceCard from "./ServiceCard";
 import ContactBanner from "./ContactBanner";
+import ButtonComponent  from "./Button";
 import CallBtn from "./CallBtn";
 
 // import image
-import serviceCard1 from "../assets/img/comga/comga-1.webp";
+import serviceCard1 from "../assets/img/carousel-img-4.webp";
 import serviceCard2 from "../assets/img/bunbo/bunbo-1.webp";
 // image for bunbo card carousel
-import serviceCarouselImg1 from '../assets/img/bunbo/bunbo-1.webp'
-import serviceCarouselImg2 from '../assets/img/bunbo/bunbo-2.jpg'
-import serviceCarouselImg3 from '../assets/img/bunbo/bunbo-3.jpg'
-import serviceCarouselImg4 from '../assets/img/bunbo/bunbo-4.jpg'
-import serviceCarouselImg5 from '../assets/img/bunbo/bunbo-5.jpg'
+
 // image for comga card carousel
-import serviceCarouselImg6 from '../assets/img/comga/comga-1.webp'
-import serviceCarouselImg7 from '../assets/img/comga/comga-2.jpg'
-import serviceCarouselImg8 from '../assets/img/comga/comga-3.jpg'
-import serviceCarouselImg9 from '../assets/img/comga/comga-4.jpg'
-import serviceCarouselImg10 from '../assets/img/comga/comga-5.jpg'
+
 
 
 function Services(){
@@ -34,8 +27,59 @@ function Services(){
             <div className="service-wrapper app-item container mt-114">
                 <h3 className="service-heading app-item-title">Các gói thiết kế & setup</h3>
                 <div className="row">
-                    <ServiceCard name="Mô hình Cơm Gà Da Giòn Mr.lữ" image={serviceCard1} image1={serviceCarouselImg6} image2={serviceCarouselImg7} image3={serviceCarouselImg8} image4={serviceCarouselImg9} image5={serviceCarouselImg10} id="1"/>
-                    <ServiceCard name="Mô hình Bún Bò Huế Ngon số 1" image={serviceCard2} image1={serviceCarouselImg1} image2={serviceCarouselImg2} image3={serviceCarouselImg3} image4={serviceCarouselImg4} image5={serviceCarouselImg5} id="2"/>
+                    <div className="service-card col-lg-6 col-sm-12">
+                        <div className="service-card-wrapper">
+                            <img src={serviceCard1} alt="Sample restaurant setted up by Luvietnam" />
+                            <div className="service-card-textbox">
+                                <h3 className="service-card-name">Mô hình quán cơm gà da giòn</h3>
+                                <div className="service-card-nav">
+                                    <ButtonComponent link="/mo-hinh-quan-com-ga-da-gion" text="Chi tiết" />
+                                    <ButtonComponent link="/contact" text="Nhận tư vấn" />
+
+                                    {/* open button modal for project images */}
+                                    {/* <Button variant="primary" onClick={() => setModalShow(true)} className='button service-modal-btn'>
+                                        Xem hình ảnh
+                                    </Button> */}
+                                </div>
+                                    {/* <ServiceModal
+                                        show={modalShow}
+                                        onHide={() => setModalShow(false)}
+                                        name={props.name}
+                                        image1={props.image1}
+                                        image2={props.image2}
+                                        image3={props.image3}
+                                        image4={props.image4}
+                                        image5={props.image5}
+                                    /> */}
+                            </div>
+                        </div>
+                    </div>
+                    <div className="service-card col-lg-6 col-sm-12">
+                        <div className="service-card-wrapper">
+                            <img src={serviceCard2} alt="Sample restaurant setted up by Luvietnam" />
+                            <div className="service-card-textbox">
+                                <h3 className="service-card-name">Mô hình quán bún bò huế</h3>
+                                <div className="service-card-nav">
+                                    <ButtonComponent link="/contact" text="Chi tiết" />
+                                    <ButtonComponent link="/contact" text="Nhận tư vấn" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="service-card col-lg-6 col-sm-12">
+                        <div className="service-card-wrapper">
+                            <img src={serviceCard1} alt="Sample restaurant setted up by Luvietnam" />
+                            <div className="service-card-textbox">
+                                <h3 className="service-card-name">Mô hình kiosk</h3>
+                                <div className="service-card-nav">
+                                    <ButtonComponent link="/contact" text="Chi tiết" />
+                                    <ButtonComponent link="/contact" text="Nhận tư vấn" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* <ServiceCard name="Mô hình Cơm Gà Da Giòn Mr.lữ" image={serviceCard1} image1={serviceCarouselImg6} image2={serviceCarouselImg7} image3={serviceCarouselImg8} image4={serviceCarouselImg9} image5={serviceCarouselImg10} id="1"/>
+                    <ServiceCard name="Mô hình Bún Bò Huế Ngon số 1" image={serviceCard2} image1={serviceCarouselImg1} image2={serviceCarouselImg2} image3={serviceCarouselImg3} image4={serviceCarouselImg4} image5={serviceCarouselImg5} id="2"/> */}
                 </div>
             </div>
             <div className="our-projects app-item">

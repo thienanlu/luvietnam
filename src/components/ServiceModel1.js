@@ -1,10 +1,11 @@
 import { Link } from "react-router";
+import { useEffect } from "react";
 
 import Header from "./Header";
 import Footer from "./Footer";
 import ContactBanner from "./ContactBanner";
 
-import bannerImg from '../assets/img/banner-test-1.jpg'
+import bannerImg from '../assets/img/carousel-img-4.webp'
 import galleryImg1 from '../assets/img/comga/comga-1.webp'
 import galleryImg2 from '../assets/img/comga/comga-2.jpg'
 import galleryImg3 from '../assets/img/comga/comga-3.jpg'
@@ -14,6 +15,9 @@ import galleryImg6 from '../assets/img/comga/comga-6.jpg'
 import ButtonComponent from "./Button";
 
 function ServiceModel1(){
+    useEffect(() => {
+                        window.scrollTo(0, 0);
+                      }, [])
     return (
         <div className="service-model">
             <Header active="4" />

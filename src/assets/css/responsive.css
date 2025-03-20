@@ -107,6 +107,20 @@
         padding: 0;
     }
 
+    .service-model-banner{
+        flex-direction: column;
+    }
+
+    .service-text{
+        padding: 32px 0 32px 0!important;
+        text-align: center;
+        width: 70%!important;
+    }
+
+    .service-model-banner > img{
+        width: 100%!important;
+    }
+
     /* blog responsive */
     .blog-card-content{
         width: 100%!important;
@@ -198,6 +212,7 @@
         text-align: center;
     }
     /* service page */
+
     .service-card-nav{
         flex-direction: column;
     }
@@ -209,6 +224,8 @@
     .modal-dialog{
         max-width: 90%;
     }
+    
+
     
     /* product page responsive */
 }
