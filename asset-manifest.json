@@ -1,13 +1,11 @@
 {
   "files": {
-    "main.css": "/luvietnam/static/css/main.619f07cb.css",
-    "main.js": "/luvietnam/static/js/main.6f9ac59d.js",
+    "main.css": "/luvietnam/static/css/main.a62e18f9.css",
+    "main.js": "/luvietnam/static/js/main.3972547a.js",
     "static/js/488.9cc78663.chunk.js": "/luvietnam/static/js/488.9cc78663.chunk.js",
     "static/media/comga-6.jpg": "/luvietnam/static/media/comga-6.2b276f102675c2b5b02e.jpg",
-    "static/media/bunbo-2.jpg": "/luvietnam/static/media/bunbo-2.6b9dbcc874c503af45a7.jpg",
     "static/media/comga-3.jpg": "/luvietnam/static/media/comga-3.416859b416a75588dcf0.jpg",
     "static/media/comga-5.jpg": "/luvietnam/static/media/comga-5.bde597bff1de6e6b3803.jpg",
-    "static/media/banner-test-1.jpg": "/luvietnam/static/media/banner-test-1.f98318bfc78e4e2c5fbf.jpg",
     "static/media/comga-2.jpg": "/luvietnam/static/media/comga-2.ea0a871cd13ebe515a77.jpg",
     "static/media/bunbo-1.webp": "/luvietnam/static/media/bunbo-1.f87e0a8827991dd913fb.webp",
     "static/media/comga-4.jpg": "/luvietnam/static/media/comga-4.066cf27b64c4f86fb02e.jpg",
@@ -20,11 +18,8 @@
     "static/media/product-img-18.jpg": "/luvietnam/static/media/product-img-18.06d659c71d0db33c9d58.jpg",
     "static/media/blog2-img.jpg": "/luvietnam/static/media/blog2-img.e08c1eb686cc4310795e.jpg",
     "static/media/product-img-20.jpg": "/luvietnam/static/media/product-img-20.c524b21a38fcf17a7046.jpg",
-    "static/media/bunbo-5.jpg": "/luvietnam/static/media/bunbo-5.1f3ffe0db9c8f9c2e23f.jpg",
     "static/media/product-img-10.jpg": "/luvietnam/static/media/product-img-10.70d27464b02df5d3d037.jpg",
     "static/media/product-img-19.jpg": "/luvietnam/static/media/product-img-19.49eb5e624bf13ca30a82.jpg",
-    "static/media/bunbo-4.jpg": "/luvietnam/static/media/bunbo-4.1f40e0dcebfc1afd2096.jpg",
-    "static/media/bunbo-3.jpg": "/luvietnam/static/media/bunbo-3.cd355cc3b5d9751ea2dd.jpg",
     "static/media/product-img-8.jpg": "/luvietnam/static/media/product-img-8.bcb139ddfd309ef81017.jpg",
     "static/media/product-img-9.jpg": "/luvietnam/static/media/product-img-9.41e52ad3b870111778c0.jpg",
     "static/media/product-img-12.jpg": "/luvietnam/static/media/product-img-12.ae38105222a372f39228.jpg",
@@ -51,12 +46,12 @@
     "static/media/slick.eot": "/luvietnam/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/luvietnam/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/luvietnam/static/media/slick.295183786cd8a1389865.woff",
-    "main.619f07cb.css.map": "/luvietnam/static/css/main.619f07cb.css.map",
-    "main.6f9ac59d.js.map": "/luvietnam/static/js/main.6f9ac59d.js.map",
+    "main.a62e18f9.css.map": "/luvietnam/static/css/main.a62e18f9.css.map",
+    "main.3972547a.js.map": "/luvietnam/static/js/main.3972547a.js.map",
     "488.9cc78663.chunk.js.map": "/luvietnam/static/js/488.9cc78663.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.619f07cb.css",
-    "static/js/main.6f9ac59d.js"
+    "static/css/main.a62e18f9.css",
+    "static/js/main.3972547a.js"
   ]
 }
