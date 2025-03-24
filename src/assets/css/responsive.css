@@ -2,7 +2,7 @@
 @media only screen and (max-width: 576px) {
     /* homepage responsive */
     .app-item{
-        padding: 64px 32px;
+        padding: 64px 32px!important;
     }
 
     .button{
@@ -19,6 +19,21 @@
         flex-direction: column;
         justify-content: space-between;
         height: 600px;
+    }
+
+    .slider-item-unique{
+        padding: 0;
+        justify-content: center;
+    }
+
+    .slider-item-unique > img{
+        margin-top: 0;
+        border-radius: 0;
+    }
+
+    .slider-item-unique > .slider-text{
+        text-align: center;
+        padding: 0 32px;
     }
 
     .slider-text{
@@ -134,6 +149,10 @@
     .article-product-banner__title{
         margin-top: 20px;
         text-align: center;
+    }
+
+    .article-wrapper .contact-banner{
+        padding: 32px 0!important;
     }
     /* product page responsive */
     .product-nav{

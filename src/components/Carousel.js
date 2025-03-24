@@ -17,7 +17,7 @@ function Carousel(){
         dots: true,
         infinite: true,
         speed: 800,
-        autoplay: true,
+        autoplay: false,
         slidesToShow: 1,
         slidesToScroll: 1,
         fade: true,
@@ -33,12 +33,12 @@ function Carousel(){
                     </div>
                     <img src={carouselImg1} class="slider-img slider-img-1" alt="" />
                 </div>
-                <div class="slider-item">
-                    <div className="slider-text">
-                            <h5 className='slider-item-title'>MÔ HÌNH QUÁN BÚN BÒ HUẾ</h5>
-                            <ButtonComponent link="/contact" text="Nhận tư vấn"/>
+                <div class="slider-item slider-item-unique">
+                    <div className="slider-text-2 slider-text">
+                        <h5 className='slider-item-title'>MÔ HÌNH QUÁN BÚN BÒ HUẾ</h5>
+                        <ButtonComponent link="/contact" text="Nhận tư vấn"/>
                     </div>
-                    <img src={carouselImg2} class="slider-img slider-img-1" alt="" />
+                    <img src={carouselImg2} class="slider-img slider-img-2" alt="" />
                 </div>
                 <div class="slider-item">
                     <div className='slider-text'>
@@ -47,12 +47,13 @@ function Carousel(){
                     </div>
                     <img src={carouselImg3} class="slider-img slider-img-3" alt="" />
                 </div>
-                <div class="slider-item">
-                    <div className='slider-text'>
+                <div class="slider-item slider-item-unique">
+                    <div className='slider-text-4 slider-text'>
                         <h5 className='slider-item-title'>MÔ HÌNH QUÁN CƠM GÀ DA GIÒN</h5>
-                        <ButtonComponent link="/mo-hinh-quan-com-ga-da-gion" text="Nhận tư vấn"/>
+                        {/* <ButtonComponent link="/mo-hinh-quan-com-ga-da-gion" text="Chi tiết"/> */}
+                        <ButtonComponent link="/contact" text="Nhận tư vấn"/>
                     </div>
-                    <img src={carouselImg4} class="slider-img" alt="" />
+                    <img src={carouselImg4} class="slider-img slider-img-4" alt="" />
                 </div>
                 </Slider>
     </div>

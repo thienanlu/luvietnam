@@ -3,7 +3,6 @@ import { useEffect } from "react";
 // import components
 import Header from "./Header"
 import Footer from "./Footer"
-import ServiceCard from "./ServiceCard";
 import ContactBanner from "./ContactBanner";
 import ButtonComponent  from "./Button";
 import CallBtn from "./CallBtn";
@@ -11,6 +10,7 @@ import CallBtn from "./CallBtn";
 // import image
 import serviceCard1 from "../assets/img/carousel-img-4.webp";
 import serviceCard2 from "../assets/img/bunbo/bunbo-1.webp";
+import serviceCard3 from "../assets/img/kiosk/kiosk-2.webp";
 // image for bunbo card carousel
 
 // image for comga card carousel
@@ -60,7 +60,7 @@ function Services(){
                             <div className="service-card-textbox">
                                 <h3 className="service-card-name">Mô hình quán bún bò huế</h3>
                                 <div className="service-card-nav">
-                                    <ButtonComponent link="/contact" text="Chi tiết" />
+                                    <ButtonComponent link="/mo-hinh-quan-bun-bo-hue" text="Chi tiết" />
                                     <ButtonComponent link="/contact" text="Nhận tư vấn" />
                                 </div>
                             </div>
@@ -68,11 +68,11 @@ function Services(){
                     </div>
                     <div className="service-card col-lg-6 col-sm-12">
                         <div className="service-card-wrapper">
-                            <img src={serviceCard1} alt="Sample restaurant setted up by Luvietnam" />
+                            <img src={serviceCard3} alt="Sample restaurant setted up by Luvietnam" />
                             <div className="service-card-textbox">
                                 <h3 className="service-card-name">Mô hình kiosk</h3>
                                 <div className="service-card-nav">
-                                    <ButtonComponent link="/contact" text="Chi tiết" />
+                                    <ButtonComponent link="/mo-hinh-kiosk" text="Chi tiết" />
                                     <ButtonComponent link="/contact" text="Nhận tư vấn" />
                                 </div>
                             </div>
