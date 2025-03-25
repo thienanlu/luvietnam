@@ -1,6 +1,7 @@
 import Slider from "react-slick";
 
-// import image=
+// import image
+// import testImg from '../assets/img/test-img-carousel.webp'
 import carouselImg1 from '../assets/img/carousel-img-1.webp'
 import carouselImg2 from '../assets/img/carousel-img-2.webp'
 import carouselImg3 from '../assets/img/carousel-img-3.webp'
