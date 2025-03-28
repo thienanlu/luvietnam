@@ -21,13 +21,13 @@ function BlogArticle(){
     return (
         <div className="article-page">
             <Header active="3"/>
-            <nav className="article-nav mt-114">
+            <nav className="article-nav">
                 <span onClick={returnPrevious}><i class="fa-solid fa-arrow-left"></i> Quay lại</span>
             </nav>
             <article className="article-wrapper">
                 <h3 className="article-title app-item-title">Nồi hầm điện - Giải pháp nấu nướng hiện đại, tiện lợi và an toàn</h3>
                 <div className="article-info">
-                    <p>Lữ Thuận Lợi</p>
+                    <p>Lu Vietnam</p>
                     <p>Ngày đăng: 09/03/2025</p>
                 </div>
                 <p className="article-content">

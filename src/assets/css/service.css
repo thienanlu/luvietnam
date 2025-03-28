@@ -21,7 +21,7 @@
 }
 
 .service-card-name{
-    color: var(--heading-color);
+    color: var(--primary-color);
     font-weight: 600;
     font-size: 32px;
 }
@@ -105,23 +105,26 @@
 }
 
 .service-text{
-    width: 50%;
+    position: absolute;
     padding: 0 44px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-weight: 400;
+    color: #fff;
+    text-align: left;
 }
 
-.service-text{
-    font-size: 32px;
-    font-weight: 400;
-    font-style: italic
+.service-text > h3{
+    font-size: 42px;
+    z-index: 2;
 }
 
 .service-model-banner > img{
-    width: 50%;
+    width: 100%;
     height: 100%;
     object-fit: cover;
+    filter: brightness(0.8);
 }
 
 .service-model-wrapper > h3{
@@ -144,7 +147,12 @@
 .service-model-details{
     margin-top: 20px;
 }
-
+.service-model-process img{
+    width: 100%;
+    border-radius: 16px;
+    object-fit: contain;
+    margin-bottom: 32px;
+}
 .service-model-gallery > img{
     width: 100%;
     margin-top: 20px;

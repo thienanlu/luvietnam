@@ -18,7 +18,7 @@ function Carousel(){
         dots: true,
         infinite: true,
         speed: 800,
-        autoplay: false,
+        autoplay: true,
         slidesToShow: 1,
         slidesToScroll: 1,
         fade: true,

@@ -123,13 +123,13 @@
     }
 
     .service-model-banner{
-        flex-direction: column;
+        /* flex-direction: column; */
     }
 
     .service-text{
         padding: 32px 0 32px 0!important;
         text-align: center;
-        width: 70%!important;
+        width: 100%!important;
     }
 
     .service-model-banner > img{

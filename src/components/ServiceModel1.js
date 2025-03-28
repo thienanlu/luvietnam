@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import ContactBanner from "./ContactBanner";
+import CallBtn from "./CallBtn";
 
 import bannerImg from '../assets/img/carousel-img-4.webp'
 import galleryImg1 from '../assets/img/comga/comga-1.webp'
@@ -12,6 +13,8 @@ import galleryImg3 from '../assets/img/comga/comga-3.jpg'
 import galleryImg4 from '../assets/img/comga/comga-4.jpg'
 import galleryImg5 from '../assets/img/comga/comga-5.jpg'
 import galleryImg6 from '../assets/img/comga/comga-6.jpg'
+import processImg from '../assets/img/service-process.webp'
+
 import ButtonComponent from "./Button";
 
 function ServiceModel1(){
@@ -31,22 +34,19 @@ function ServiceModel1(){
             <div className="service-model-wrapper app-item" id="service-model-wrapper">
                 <h5 className="service-model-subtitle">Giới thiệu</h5>
                 <p className="service-model-desc">
-                Dịch vụ thiết kế quán cơm gà của chúng tôi chuyên tạo ra không gian quán độc đáo, thu hút, tối ưu công năng và mang lại trải nghiệm thoải mái cho thực khách. Với đội ngũ thiết kế sáng tạo, chúng tôi sẽ giúp bạn xây dựng một không gian ấm cúng, hiện đại, phù hợp với phong cách quán cơm gà và thương hiệu của bạn. Chúng tôi cam kết mang đến giải pháp thiết kế hoàn hảo, giúp quán của bạn nổi bật và thu hút khách hàng.
-                </p>
+                Dịch vụ thiết kế quán cơm gà của chúng tôi luôn hướng tới sự tối giản và gần gũi tạo cảm giác thân thiện, tối ưu công năng và mang lại trải nghiệm thoải mái cho thực khách. Với đội ngũ thiết kế sáng tạo, chúng tôi sẽ giúp bạn xây dựng một không gian ấm cúng, hiện đại, phù hợp với phong cách quán cơm gà và thương hiệu của bạn. Chúng tôi cam kết mang đến giải pháp thiết kế hoàn hảo, giúp quán của bạn nổi bật và thu hút khách hàng.                </p>
                 <h5 className="service-model-subtitle">Thông tin tổng quan:</h5>
                 <ul className="service-model-details">
-                    <li className="">Diện tích mặt bằng: <b>25m2 - 35m2</b></li>
-                    <li className="">Số lượng bàn: <b>8-15 bàn</b></li>
-                    <li className="">Quy mô: <b>20 - 60 khách</b></li>
-                    <li className="">Thời gian thi công dự kiến: <b>4 - 6 tháng</b></li>
-                    <li className="">Chi phí dự kiến: <b> ~ 150 triệu</b></li>
+                    <li className="">Diện tích mặt bằng: <b>20m2 - 150m2</b></li>
+                    <li className="">Số lượng bàn: <b>5 bàn - 30 bàn</b></li>
+                    <li className="">Quy mô: <b>20 - 150 khách</b></li>
+                    <li className="">Thời gian thi công dự kiến: <b>2 tuần - 8 tuần</b></li>
+                    <li className="">Chi phí dự kiến: <b> ~ Chỉ từ 90 triệu</b></li>
                 </ul>
                 <div className="service-model-process">
                     <h5 className="service-model-subtitle">Quy trình thi công:</h5>
                     <div className="service-model-process-main">
-                        <div className="service-model-item">
-
-                        </div>
+                        <img src={processImg} alt="Our service process" />
                     </div>
                 </div>
                 <div className="service-model-img">
@@ -61,6 +61,7 @@ function ServiceModel1(){
                     </div>
                 </div>
             </div>
+            <CallBtn />
             <ContactBanner />
             <Footer />
         </div>

@@ -16,7 +16,7 @@ function Footer(){
                         <Link to="/luvietnam"><img src={logo} alt="logo-luvietnam" className='footer-logo' /></Link>
                     </div>
                     <div className='col-lg-4 col-sm-12 footer-col'>
-                        <h4>Luvietnam</h4>
+                        <h4>Lu Vietnam</h4>
                         <p>Tư vấn - Thiết kế - Setup quán ăn</p>
                     </div>
                     <div className='col-lg-4 col-sm-12 footer-col'>
@@ -29,7 +29,7 @@ function Footer(){
                     </div>
                 </div>
                 <div className='copyright'>
-                    <p>Copyright<i className='fa-regular fa-copyright'></i>{year} Luvietnam - Designed by <Link to="https://linkedin.com" target='_blank'>Lữ Hoàng Thiên Ân</Link></p>
+                    <p>Copyright<i className='fa-regular fa-copyright'></i>{year} Lu Vietnam - Designed by <Link to="https://linkedin.com" target='_blank'>Lữ Hoàng Thiên Ân</Link></p>
                 </div>
         </div>
     )
