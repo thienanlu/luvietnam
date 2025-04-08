@@ -122,10 +122,6 @@
         padding: 0;
     }
 
-    .service-model-banner{
-        /* flex-direction: column; */
-    }
-
     .service-text{
         padding: 32px 0 32px 0!important;
         text-align: center;
@@ -134,6 +130,10 @@
 
     .service-model-banner > img{
         width: 100%!important;
+    }
+
+    .product-service-item{
+        padding: 12px 0;
     }
 
     /* blog responsive */
@@ -153,6 +153,10 @@
 
     .article-wrapper .contact-banner{
         padding: 32px 0!important;
+    }
+
+    .article-product-banner__text>a{
+        min-width: 0!important;
     }
     /* product page responsive */
     .product-nav{
@@ -243,9 +247,14 @@
     .modal-dialog{
         max-width: 90%;
     }
-    
 
-    
+    .product-service-item{
+        padding: 16px 0;
+    }
+
+    .promotion-textbox{
+        text-align: center;
+    }
     /* product page responsive */
 }
 

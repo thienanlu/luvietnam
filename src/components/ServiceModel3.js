@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+// import { Link } from "react-router";
 import { useEffect } from "react";
 
 import Header from "./Header";
@@ -10,7 +10,6 @@ import galleryImg1 from '../assets/img/kiosk/kiosk-1.webp'
 import galleryImg2 from '../assets/img/kiosk/kiosk-2.webp'
 import galleryImg3 from '../assets/img/kiosk/kiosk-3.webp'
 import processImg from '../assets/img/service-process.webp'
-import ButtonComponent from "./Button";
 import CallBtn from "./CallBtn";
 
 import '../assets/css/service.css'

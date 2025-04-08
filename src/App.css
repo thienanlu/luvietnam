@@ -25,6 +25,10 @@ li, a, p, button{
   padding: 0;
 }
 
+.row{
+  margin: 0;
+}
+
 .box{
   height: 500px;
 }
@@ -90,10 +94,10 @@ li, a, p, button{
 
 @keyframes slideDown{
   from{
-    transform: translateY(-30px)
+    transform: translateY(-45px)
   }
   to{
-    transform: translateY(15px);
+    transform: translateY(0px);
   }
 }
 

@@ -11,10 +11,7 @@ import CallBtn from "./CallBtn";
 import serviceCard1 from "../assets/img/carousel-img-4.webp";
 import serviceCard2 from "../assets/img/bunbo/bunbo-1.webp";
 import serviceCard3 from "../assets/img/kiosk/kiosk-2.webp";
-// image for bunbo card carousel
-
-// image for comga card carousel
-
+import projectCard1 from '../assets/img/project/project1-img-3.webp'
 
 
 function Services(){
@@ -84,6 +81,19 @@ function Services(){
             </div>
             <div className="our-projects app-item">
                 <h3 className="app-item-title">Một số dự án của chúng tôi</h3>
+                <div className="container">
+                    <div className="row justify-content-center">
+                        <div className="col-lg-4 col-sm-12">
+                            <div className="project-card">
+                                <img src={projectCard1} alt="Sample restaurant setted up by Luvietnam" />
+                                <div className="project-card-textbox">
+                                    <h3 className="project-card-name">Bún Bò Huế Ngon số 1</h3>
+                                    <ButtonComponent text="Xem thêm" link="/du-an-bun-bo-hue-ngon-so-1" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <ContactBanner />
             <CallBtn />

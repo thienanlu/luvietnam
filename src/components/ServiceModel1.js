@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+// import { Link } from "react-router";
 import { useEffect } from "react";
 
 import Header from "./Header";
@@ -14,8 +14,6 @@ import galleryImg4 from '../assets/img/comga/comga-4.jpg'
 import galleryImg5 from '../assets/img/comga/comga-5.jpg'
 import galleryImg6 from '../assets/img/comga/comga-6.jpg'
 import processImg from '../assets/img/service-process.webp'
-
-import ButtonComponent from "./Button";
 
 function ServiceModel1(){
     useEffect(() => {

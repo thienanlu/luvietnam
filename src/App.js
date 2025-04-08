@@ -13,6 +13,7 @@ import BlogArticle3 from './components/BlogArticle3';
 import ServiceModel1 from './components/ServiceModel1';
 import ServiceModel2 from './components/ServiceModel2';
 import ServiceModel3 from './components/ServiceModel3';
+import ProjectDetail1 from './components/ProjectDetail1';
 
 // import css files
 import './App.css';
@@ -36,6 +37,8 @@ function App() {
             <Route path="/mo-hinh-quan-com-ga-da-gion" element={<ServiceModel1 />} />
             <Route path="/mo-hinh-quan-bun-bo-hue" element={<ServiceModel2 />} />
             <Route path="/mo-hinh-kiosk" element={<ServiceModel3 />} />
+
+            <Route path="/du-an-bun-bo-hue-ngon-so-1" element={<ProjectDetail1 />} />
          </Routes>
       </div>
     </>

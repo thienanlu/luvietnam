@@ -22,7 +22,7 @@ function BlogArticle(){
         <div className="article-page">
             <Header active="3"/>
             <nav className="article-nav">
-                <span onClick={returnPrevious}><i class="fa-solid fa-arrow-left"></i> Quay lại</span>
+                <span onClick={returnPrevious}><i className="fa-solid fa-arrow-left"></i> Quay lại</span>
             </nav>
             <article className="article-wrapper">
                 <h3 className="article-title app-item-title">Nồi hầm điện - Giải pháp nấu nướng hiện đại, tiện lợi và an toàn</h3>

@@ -50,35 +50,7 @@
 }
 
 /* modal */
-.modal-content{
-    padding: 12px 36px;
-}
 
-.service-modal-btn{
-    border-color: var(--primary-color)!important;
-}
-
-.service-modal-carousel{
-    padding: 0;
-}
-
-.service-carousel-indicators{
-    position: absolute;
-    bottom: -12px;
-}
-
-.service-carousel-indicators > button{
-    background-color: var(--background-color)!important;
-}
-
-.service-carousel-indicators > .active{
-    background-color: var(--primary-color)!important;
-}
-
-
-.carousel-indicators [data-bs-target] {
-    background-clip: border-box;
-}
 
 /* our projects section */
 .our-projects > h3{
@@ -158,4 +130,51 @@
     margin-top: 20px;
     border-radius: 16px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+/* projects */
+
+.project-card{
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.project-card > img{
+    border-radius: 8px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.project-card-textbox{
+    padding: 24px 16px;
+}
+
+.project-card-textbox > h3{
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.project-card-textbox > a{
+    width: 100%;
+}
+
+/* project details */
+.project-detail-wrapper{
+    margin-top: 140px;
+}
+
+.project-detail-wrapper > .app-item-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-img > img{
+    height: 450px;
+    margin-top: 20px;
+    object-fit: cover;
+    border-radius: 8px;
 }

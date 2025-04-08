@@ -10,9 +10,9 @@ function Header(props){
         <div className="header">
             <div className="utilities">
                 <ul className='utilities-list'>
-                    <li><i class="fa-regular fa-envelope"></i>lufoodvietnam@gmail.com</li>
-                    <li><i class="fa-regular fa-clock"></i>08:30 - 17:00</li>
-                    <li><i class="fa-solid fa-phone"></i>0906 756 711</li>
+                    <li><i className="fa-regular fa-envelope"></i>lufoodvietnam@gmail.com</li>
+                    <li><i className="fa-regular fa-clock"></i>08:30 - 17:00</li>
+                    <li><i className="fa-solid fa-phone"></i>0906 756 711</li>
                 </ul>
             </div>
             <nav className="navbar navbar-expand-lg bg-body-tertiary">

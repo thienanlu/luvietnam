@@ -1,10 +1,8 @@
-import { Link } from "react-router";
 import { useEffect } from "react";
 
 import Header from "./Header";
 import Footer from "./Footer";
 import ContactBanner from "./ContactBanner";
-import ButtonComponent from "./Button";
 import CallBtn from "./CallBtn";
 
 import bannerImg from '../assets/img/carousel-img-2.webp'

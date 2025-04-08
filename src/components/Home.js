@@ -72,7 +72,7 @@ function Home(){
                                 <img src={productImg3} alt="product 3" className="" loading="lazy" />
                             </div>
                         </div>
-                        <Link to="/product">Xem thêm <i class="fa-solid fa-arrow-right"></i></Link>
+                        <Link to="/product">Xem thêm <i className="fa-solid fa-arrow-right"></i></Link>
                     </div>
                 </div>
             </section>
