@@ -9,6 +9,10 @@ import projectImg1 from '../assets/img/project/project1-img-1.webp'
 import projectImg2 from '../assets/img/project/project1-img-2.webp'
 import projectImg3 from '../assets/img/project/project1-img-3.webp'
 import projectImg4 from '../assets/img/project/project1-img-4.webp'
+import projectImg5 from '../assets/img/project/project1-img-5.webp'
+import projectImg6 from '../assets/img/project/project1-img-6.webp'
+import projectImg7 from '../assets/img/project/project1-img-7.webp'
+import projectImg8 from '../assets/img/project/project1-img-8.webp'
 
 
 function ProjectDetail1(){
@@ -34,6 +38,10 @@ function ProjectDetail1(){
                     <img src={projectImg2} className="col-lg-6 col-sm-12" alt="Hình ảnh quán bún bò huế ngon số 1" />
                     <img src={projectImg3} className="col-lg-6 col-sm-12" alt="Hình ảnh quán bún bò huế ngon số 1" />
                     <img src={projectImg4} className="col-lg-6 col-sm-12" alt="Hình ảnh quán bún bò huế ngon số 1" />
+                    <img src={projectImg5} className="col-lg-6 col-sm-12" alt="Hình ảnh quán bún bò huế ngon số 1" />
+                    <img src={projectImg6} className="col-lg-6 col-sm-12" alt="Hình ảnh quán bún bò huế ngon số 1" />
+                    <img src={projectImg7} className="col-lg-6 col-sm-12" alt="Hình ảnh quán bún bò huế ngon số 1" />
+                    <img src={projectImg8} className="col-lg-6 col-sm-12" alt="Hình ảnh quán bún bò huế ngon số 1" />
                 </div>
             </article>
             <ContactBanner />

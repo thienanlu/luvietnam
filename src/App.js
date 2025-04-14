@@ -10,6 +10,7 @@ import Blog from './components/Blog';
 import Article1 from './components/BlogArticle'
 import BlogArticle2 from './components/BlogArticle2';
 import BlogArticle3 from './components/BlogArticle3';
+import BlogArticle4 from './components/BlogArticle4';
 import ServiceModel1 from './components/ServiceModel1';
 import ServiceModel2 from './components/ServiceModel2';
 import ServiceModel3 from './components/ServiceModel3';
@@ -33,6 +34,7 @@ function App() {
             <Route path="/bai-viet-ve-noi-ham-dien" element={<Article1 />} />
             <Route path="/4-dieu-can-luu-y-khi-chon-dia-diem-kinh-doanh-an-uong" element={<BlogArticle2 />} />
             <Route path="/tong-hop-cac-tu-khoa-mo-ta-trai-nghiem-tieu-cuc" element={<BlogArticle3 />} />
+            <Route path="/6-goi-y-kinh-doanh-trong-thoi-buoi-suy-thoai-kinh-te" element={<BlogArticle4 />} />
 
             <Route path="/mo-hinh-quan-com-ga-da-gion" element={<ServiceModel1 />} />
             <Route path="/mo-hinh-quan-bun-bo-hue" element={<ServiceModel2 />} />

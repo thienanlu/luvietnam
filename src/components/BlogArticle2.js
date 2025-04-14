@@ -28,21 +28,20 @@ function BlogArticle2(){
                     <p>Lu Vietnam</p>
                     <p>Ngày đăng: 12/03/2025</p>
                 </div>
-                <p className="article-content">
+                <div className="article-content">
                 4 điều cần lưu ý khi chọn 1 địa điểm kinh doanh ăn uống! Điều thứ 4 là cực kỳ quan trọng!!!! 
-                    <p><b>1. Vị trí tốt: Như thế nào là vị trí tốt?</b></p>
+                    <p><span className="article-main-point"><b>1. Vị trí tốt: Như thế nào là vị trí tốt?</b></span></p>
                     <p>Khu dân cư đông đúc, đường lưu thông thuận tiện, mặt bằng không bị khuất, dân trí xung quanh tầm trung trở lên. </p>
-
-                    <p><b>2. Giá thuê phù hợp: </b></p>
+                    <p><span className="article-main-point"><b>2. Giá thuê phù hợp: </b></span></p>
                     <p>Giá thuê cần phù hợp với khung giá thị trường, phù hợp với sản phẩm, phù hợp túi tiền cho phép. </p>
 
-                    <p><b>3. Hợp đồng rõ ràng & minh bạch - trách nhiệm nghĩa vụ & quyền lợi</b> </p>
+                    <p><span className="article-main-point"><b>3. Hợp đồng rõ ràng & minh bạch - trách nhiệm nghĩa vụ & quyền lợi</b> </span></p>
 
-                    <p><b>4. Chủ nhà phải là tuýp người tử tế & hiểu chuyện biết nhiều và phải biết điều! </b> </p>
+                    <p><span className="article-main-point"><b>4. Chủ nhà phải là tuýp người tử tế & hiểu chuyện biết nhiều và phải biết điều! </b> </span></p>
                     <p>Cần thiết hãy làm bài test khôn ngoan xem cách họ ứng xử</p>
                     <p>Nếu không đáp ứng những tiêu chí trên không cần vội chốt thuê chỉ vì quá mong muốn khởi nghiệp !!! Nếu không là bạn sẽ phải trả giá </p>
                     <p><i>Chúc bạn tìm được 1 vị trí ưng ý và thành công!</i></p>
-                </p>
+                </div>
                 <ContactBanner />
             </article>
             <CallBtn />

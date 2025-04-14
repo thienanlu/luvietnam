@@ -33,8 +33,10 @@
 
 .blog-card-content{
     text-align: center;
-    padding: 40px 12px 0 12px;
+    padding: 0px 12px 0 12px;
     height: 200px;
+    display: flex;
+    align-items: center;
 }
 
 .blog-card-title{
@@ -122,10 +124,17 @@
 .article-content{
     margin-top: 20px;
     text-align: justify;
+    font-size: 20px;
+}
+
+.article-content span{
+    font-weight: 800;
+    font-size: 24px;
 }
 
 .article-content b{
     color: var(--heading-color);
+    /* font-weight: 00; */
 }
 
 .article-content > p,li{

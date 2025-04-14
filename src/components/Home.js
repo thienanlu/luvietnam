@@ -20,6 +20,7 @@ import productImg1 from '../assets/img/product-item-1.jpg'
 import productImg2 from '../assets/img/product-item-2.jpg'
 import productImg3 from '../assets/img/product-item-3.jpg'
 import founderImg from '../assets/img/founder-img.jpg'
+import homeVideo from '../assets/img/video-1.mp4'
 
 function Home(){
     useEffect(() => {
@@ -33,13 +34,15 @@ function Home(){
             {/* about section */}
             <section className="home-about-section container-fluid app-item">
                 <div className="row align-items-center justify-content-between">
-                    <div className="home-about-textbox col-lg-8 col-md-6 col-sm-12">
+                    <div className="home-about-textbox col-lg-7 col-sm-12">
                         <h2 className="home-section-title">Về chúng tôi</h2>
                         <p><b>Lu Vietnam - Thiết kế và setup quán ăn chuyên nghiệp.</b> <p>Chúng tôi biến ý tưởng của bạn thành không gian ẩm thực độc đáo, thu hút và hiệu quả. 
                             Tin cậy Lu Vietnam để khởi đầu hành trình kinh doanh đầy cảm hứng!</p> </p>
                         <ButtonComponent link='/about' text="Tìm hiểu thêm" />
                     </div>
-                    <img src={founderImg} alt="luvietnam logo" className="col-lg-3 col-md-4 col-sm-12 app-section-img" loading="lazy" />
+                    <video className="col-lg-4 col-sm-12 app-item-img" height="450px" autoPlay loop muted>
+                        <source src={homeVideo} type="video/mp4" />
+                    </video>
                 </div>
             </section>
 

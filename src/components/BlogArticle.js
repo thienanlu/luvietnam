@@ -30,7 +30,7 @@ function BlogArticle(){
                     <p>Lu Vietnam</p>
                     <p>Ngày đăng: 09/03/2025</p>
                 </div>
-                <p className="article-content">
+                <div className="article-content">
                     Trong nhịp sống hiện đại, việc nấu nướng không chỉ đòi hỏi món ăn ngon mà còn cần sự tiện lợi, an toàn và tiết kiệm. Nồi hầm điện nổi lên như một giải pháp thay thế hoàn hảo cho các phương pháp nấu nướng truyền thống như bếp gas hay than đá. Vậy, lý do nào khiến nồi hầm điện được ưa chuộng đến vậy?
                     <p><b>1. Tiết kiệm thời gian và công sức: </b></p>
                     <li>Tự động hóa: Nồi hầm điện có chế độ nấu tự động, bạn chỉ cần cho nguyên liệu vào, chọn chế độ và thời gian phù hợp, sau đó có thể thoải mái làm việc khác mà không lo thức ăn bị cháy khét.</li>
@@ -49,7 +49,7 @@ function BlogArticle(){
                     <p><b>4. Hương vị thơm ngon và dinh dưỡng: </b> </p>
                     <li>Nấu chín đều: Nhiệt độ trong nồi hầm điện được kiểm soát ổn định, giúp thức ăn chín đều, giữ nguyên hương vị và dinh dưỡng. </li>
                     <li>Hầm nhừ: Nồi hầm điện hầm nhừ các loại thực phẩm cứng đầu như gân, xương, giúp món ăn mềm ngon, dễ tiêu hóa. </li>
-                </p>
+                </div>
                 <div className="article-product-banner row">
                     <img src={ArticleProductImg} className="article-img col-lg-3 col-sm-12" alt=""/>
                     <div className="article-product-banner__text col-lg-9 col-sm-12">

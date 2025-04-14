@@ -29,13 +29,14 @@ li, a, p, button{
   margin: 0;
 }
 
+
 .box{
   height: 500px;
 }
 
 .app-item{
   position: relative;
-  padding: 64px 44px;
+  padding: 64px 40px;
 }
 
 .app-item-title{

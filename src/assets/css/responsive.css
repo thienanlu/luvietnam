@@ -66,8 +66,8 @@
         text-align: center;
     }
 
-    .home-about-section img{
-        width: 100%;
+    .home-about-section video{
+        margin-top: 20px;
     }
 
     .home-about-textbox > p, .home-product-textbox > p{
@@ -79,7 +79,7 @@
     }
 
     .contact-banner-text{
-        padding: 24px;
+        padding: 8px;
         max-width: 80%;
     }
 
@@ -181,7 +181,15 @@
 /* landscape mobile and portrait tablet*/
 @media only screen and (min-width: 576px) and (max-width: 820px) {
     /* homepage */
+    .home-about-section video{
+        height: 750px;
+        margin-top: 20px;
+    }
 
+    .home-about-textbox .button{
+        width: 100%;
+        text-align: center;
+    }
     /* slide */
     .slick-prev, .slick-next{
         display: none!important;
@@ -224,6 +232,7 @@
     }
 
     /* blog responsive */
+
     .article-product-banner__title{
         margin-top: 20px;
         text-align: center;
