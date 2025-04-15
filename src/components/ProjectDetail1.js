@@ -31,6 +31,9 @@ function ProjectDetail1(){
             <Helmet>
                 <title>Dự án Quán bún bò huế ngon số 1 - Long An</title>
                 <meta name="description" content="Dự án quán bún bò huế ngon số 1 - dự án nổi bật được lên kế hoạch - thiết kế - thi công bởi Lu Vietnam" />
+                <meta property="og:title" content="Dự án Quán bún bò huế ngon số 1 - Long An" />
+                <meta property="og:image" content="thumbnail.jpg" />
+                <meta property="og:description" content="Dự án quán bún bò huế ngon số 1 - dự án nổi bật được lên kế hoạch - thiết kế - thi công bởi Lu Vietnam" />
             </Helmet>
             <Header active="4" />
             <nav className="article-nav">

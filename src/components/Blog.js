@@ -41,6 +41,9 @@ function Blog(){
             <Helmet>
                 <title>Tin tức & Bài viết</title>
                 <meta name="description" content="Góc chia sẻ những kinh nghiệm kinh doanh ẩm thực được biên soạn bởi những chuyên gia giàu kinh nghiệm trong ngành ẩm thực, nhà hàng - khách sạn" />
+                <meta property="og:title" content="Tin tức & Bài viết" />
+                <meta property="og:image" content="thumbnail.jpg" />
+                <meta property="og:description" content="Góc chia sẻ những kinh nghiệm kinh doanh ẩm thực được biên soạn bởi những chuyên gia giàu kinh nghiệm trong ngành ẩm thực, nhà hàng - khách sạn" />
             </Helmet>
             <Header active="3"/>
             <section className="blog-wrapper app-item mt-114">

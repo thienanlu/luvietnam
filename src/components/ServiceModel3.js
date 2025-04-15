@@ -24,6 +24,9 @@ function ServiceModel3(){
             <Helmet>
                 <title>Mô hình Kiosk</title>
                 <meta name="description" content="Chi tiết mô hình kiosk - quy trình thi công - chi phí dự kiến" />
+                <meta property="og:title" content="Mô hình kiosk" />
+                <meta property="og:image" content="thumbnail.jpg" />
+                <meta property="og:description" content="Chi tiết mô hình kiosk - quy trình thi công - chi phí dự kiến" />
             </Helmet>
             <Header active="4" />
             <div className="service-model-banner mt-114">

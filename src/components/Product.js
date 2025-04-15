@@ -102,6 +102,9 @@ function Product(){
                 <title>Sản phẩm & Thiết bị</title>
                 <meta name="description" content="Chúng tôi cung cấp sản phẩm nội thất và thiết bị cho quán ăn với giá cả phù hợp" />
                 <meta name="keywords" content="Nội thất quán ăn - thiết bị bếp - thiết bị nhà hàng - Dụng cụ ăn uống" />
+                <meta property="og:title" content="Sản phẩm & Thiết bị" />
+                <meta property="og:image" content="thumbnail.jpg" />
+                <meta property="og:description" content="Chúng tôi cung cấp sản phẩm nội thất và thiết bị cho quán ăn với giá cả phù hợp" />
             </Helmet>
             <Header active="5"/>
             <section className="product-banner mt-114">

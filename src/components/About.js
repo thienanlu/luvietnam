@@ -21,6 +21,9 @@ function About(){
             <meta charSet="utf-8" />
                 <title>Lu Vietnam - Về chúng tôi</title>
                 <meta name="description" content="Đôi nét về Lu Vietnam" />
+                <meta property="og:title" content="Lu Vietnam - Về chúng tôi" />
+                <meta property="og:image" content="thumbnail.jpg" />
+                <meta property="og:description" content="Lu Vietnam là đơn vị chuyên cung cấp dịch vụ setup và thiết kế nội thất quán ăn chuyên nghiệp" />
             </Helmet>
             <Header active="2"/>
             <section className="about-wrapper container-fluid app-item mt-114">

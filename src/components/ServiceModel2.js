@@ -23,6 +23,9 @@ function ServiceModel2(){
             <Helmet>
                 <title>Mô hình quán Bún bò huế</title>
                 <meta name="description" content="Chi tiết mô hình quán bún bò huế - quy trình thi công - chi phí dự kiến" />
+                <meta property="og:title" content="Mô hình quán bún bò huế" />
+                <meta property="og:image" content="thumbnail.jpg" />
+                <meta property="og:description" content="Chi tiết mô hình quán bún bò huế - quy trình thi công - chi phí dự kiến" />
             </Helmet>
             <Header active="4" />
             <div className="service-model-banner mt-114">

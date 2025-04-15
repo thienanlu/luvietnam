@@ -23,6 +23,9 @@ function BlogArticle3(){
                 <title>Tổng hợp các từ khóa thường được sử dụng để mô tả những trải nghiệm tiêu cực tại nhà hàng</title>
                 <meta name="description" content="Những từ khoá được sử dụng cho thấy khách hàng không hài lòng với dịch vụ nhà hàng của bạn hoặc có trải nghiệm tiêu cực đối với dịch vụ của bạn" />
                 <meta name="keywords" content="không hài lòng, nhà hàng, dịch vụ, trải nghiệm, tiêu cực, khó chịu, từ khoá" />
+                <meta property="og:title" content="Tổng hợp các từ khóa thường được sử dụng để mô tả những trải nghiệm tiêu cực tại nhà hàng" />
+                <meta property="og:image" content="thumbnail.jpg" />
+                <meta property="og:description" content="Những từ khoá được sử dụng cho thấy khách hàng không hài lòng với dịch vụ nhà hàng của bạn hoặc có trải nghiệm tiêu cực đối với dịch vụ của bạn" />
             </Helmet>
             <Header active="3"/>
             <nav className="article-nav">

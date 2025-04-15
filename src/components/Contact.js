@@ -18,6 +18,9 @@ function Contact(){
             <Helmet>
                 <title>Liên hệ - Tư vấn</title>
                 <meta name="description" content="Liên hệ với chúng tôi để nhận tư vấn ngay" />
+                <meta property="og:title" content="Liên hệ & Tư vấn" />
+                <meta property="og:image" content="thumbnail.jpg" />
+                <meta property="og:description" content="Liên hệ với chúng tôi để nhận tư vấn ngay" />
             </Helmet>
             <Header active="6"/>
             {/* <div className="box"></div> */}

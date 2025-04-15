@@ -23,6 +23,9 @@ function BlogArticle2(){
                 <title>4 điều cần lưu ý khi chọn 1 địa điểm kinh doanh ăn uống</title>
                 <meta name="description" content="Những lưu ý dành cho chủ quán khi lựa chọn địa điểm khởi nghiệp - kinh doanh ăn uống" />
                 <meta name="keywords" content="Vị trí, quán ăn, kinh doanh, địa điểm, khởi nghiệp" />
+                <meta property="og:title" content="4 điều cần lưu ý khi chọn 1 địa điểm kinh doanh ăn uống" />
+                <meta property="og:image" content="thumbnail.jpg" />
+                <meta property="og:description" content="Những lưu ý dành cho chủ quán khi lựa chọn địa điểm khởi nghiệp - kinh doanh ăn uống" />
             </Helmet>
             <Header active="3"/>
             <nav className="article-nav">

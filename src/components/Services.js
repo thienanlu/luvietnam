@@ -25,6 +25,9 @@ function Services(){
                 <title>Dịch vụ tư vấn & thiết kế quán ăn</title>
                 <meta name="description" content="Các gói thiết kế - setup của chúng tôi tập trung vào hai mô hình Cơm gà da giòn và Bún bò huế" />
                 <meta name="keywords" content="Setup quán ăn, Quy trình thiết kế quán ăn, Thiết kế nhà hàng, Cơm gà da giòn, Bún bò huế, quán ăn" />
+                <meta property="og:title" content="Dịch vụ tư vấn & thiết kế nội thất quán ăn" />
+                <meta property="og:image" content="thumbnail.jpg" />
+                <meta property="og:description" content="Các gói thiết kế - setup của chúng tôi tập trung vào hai mô hình Cơm gà da giòn và Bún bò huế" />
             </Helmet>
             <Header active="4" />
             <div className="service-wrapper app-item container mt-114">

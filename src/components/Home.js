@@ -22,6 +22,7 @@ import productImg2 from '../assets/img/product-item-2.jpg'
 import productImg3 from '../assets/img/product-item-3.jpg'
 import founderImg from '../assets/img/founder-img.jpg'
 import homeVideo from '../assets/img/video-1.mp4'
+import logo from '../assets/img/logo.jpg'
 
 function Home(){
     useEffect(() => {
@@ -33,6 +34,9 @@ function Home(){
             <Helmet>
                 <title>Lu Vietnam - Thiết kế & Setup quán ăn</title>
                 <meta name="description" content="Lu Vietnam là đơn vị chuyên cung cấp dịch vụ setup và thiết kế nội thất quán ăn chuyên nghiệp. Với đội ngũ giàu kinh nghiệm và sáng tạo, LUVietnam giúp bạn biến ý tưởng thành không gian thực tế, tối ưu hóa công năng và mang đến phong cách độc đáo, thu hút khách hàng." />
+                <meta property="og:title" content="Lu Vietnam - Thiết kế & Setup nội thất quán ăn" />
+                <meta property="og:image" content={logo} />
+                <meta property="og:description" content="Lu Vietnam là đơn vị chuyên cung cấp dịch vụ setup và thiết kế nội thất quán ăn chuyên nghiệp" />
             </Helmet>
             <Header active="1"/>
             <Carousel title="LUVIETNAM" text="TƯ VẤN - THIẾT KẾ - THI CÔNG SETUP QUÁN - ĐÀO TẠO BẾP"/>

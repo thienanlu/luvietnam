@@ -25,6 +25,9 @@ function ServiceModel1(){
             <Helmet>
                 <title>Mô hình quán cơm gà da giòn</title>
                 <meta name="description" content="Chi tiết mô hình quán cơm gà da giòn - quy trình thi công - chi phí dự kiến" />
+                <meta property="og:title" content="Mô hình quán cơm gà da giòn" />
+                <meta property="og:image" content="thumbnail.jpg" />
+                <meta property="og:description" content="Chi tiết mô hình quán cơm gà da giòn - quy trình thi công - chi phí dự kiến" />
             </Helmet>
             <Header active="4" />
             <div className="service-model-banner mt-114">
