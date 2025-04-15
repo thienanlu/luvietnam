@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router";
 import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 import Header from "./Header";
 import Footer from "./Footer";
@@ -18,12 +19,17 @@ function BlogArticle3(){
 
     return (
         <div className="article-page">
+            <Helmet>
+                <title>Tổng hợp các từ khóa thường được sử dụng để mô tả những trải nghiệm tiêu cực tại nhà hàng</title>
+                <meta name="description" content="Những từ khoá được sử dụng cho thấy khách hàng không hài lòng với dịch vụ nhà hàng của bạn hoặc có trải nghiệm tiêu cực đối với dịch vụ của bạn" />
+                <meta name="keywords" content="không hài lòng, nhà hàng, dịch vụ, trải nghiệm, tiêu cực, khó chịu, từ khoá" />
+            </Helmet>
             <Header active="3"/>
             <nav className="article-nav">
                 <span onClick={returnPrevious}><i class="fa-solid fa-arrow-left"></i> Quay lại</span>
             </nav>
             <article className="article-wrapper">
-                <h3 className="article-title app-item-title">Tổng hợp các từ khóa thường được sử dụng để mô tả những trải nghiệm tiêu cực tại nhà hàng.</h3>
+                <h3 className="article-title app-item-title">Tổng hợp các từ khóa thường được sử dụng để mô tả những trải nghiệm tiêu cực tại nhà hàng</h3>
                 <div className="article-info">
                     <p>Lu Vietnam</p>
                     <p>Ngày đăng: 27/03/2025</p>

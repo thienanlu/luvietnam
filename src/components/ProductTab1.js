@@ -91,12 +91,12 @@ function ProductTab1(){
                     <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" data-bs-parent="accordionPanelsStayOpenExample">
                     <div class="accordion-body container">
                         <div className='row'>
-                            <ProductCard name="Dĩa rau nhựa cao cấp" img={Product15}/>
-                            <ProductCard name="Tô nhựa cao cấp" img={Product17}/>
-                            <ProductCard name="Khay Inox" img={Product18}/>
-                            <ProductCard name="Gắp Inox" img={Product19}/>
-                            <ProductCard name="Đũa gỗ" img={Product20}/>
-                            <ProductCard name="Chén chấm" img={Product21}/>
+                            <ProductCard  img={Product15}/>
+                            <ProductCard  img={Product17}/>
+                            <ProductCard  img={Product18}/>
+                            <ProductCard  img={Product19}/>
+                            <ProductCard img={Product20}/>
+                            <ProductCard img={Product21}/>
                         </div>
                     </div>
                     </div>

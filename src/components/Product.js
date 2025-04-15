@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Slider from "react-slick";
+import { Helmet } from "react-helmet";
 
 // import components
 import Header from "./Header";
@@ -97,6 +98,11 @@ function Product(){
       }
     return(
         <div className="product">
+            <Helmet>
+                <title>Sản phẩm & Thiết bị</title>
+                <meta name="description" content="Chúng tôi cung cấp sản phẩm nội thất và thiết bị cho quán ăn với giá cả phù hợp" />
+                <meta name="keywords" content="Nội thất quán ăn - thiết bị bếp - thiết bị nhà hàng - Dụng cụ ăn uống" />
+            </Helmet>
             <Header active="5"/>
             <section className="product-banner mt-114">
                 <img src={bannerImg} alt="banner" className=""/>

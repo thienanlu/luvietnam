@@ -1,4 +1,6 @@
 import { useNavigate } from "react-router";
+import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 import Header from "./Header";
 import Footer from "./Footer";
@@ -16,12 +18,20 @@ import projectImg8 from '../assets/img/project/project1-img-8.webp'
 
 
 function ProjectDetail1(){
+    useEffect(() => {
+                        window.scrollTo(0, 0);
+                      }, []);
+
     const navigate = useNavigate();
     const returnPrevious = () => {
         navigate(-1)
     }
     return (
         <div className="project-detail">
+            <Helmet>
+                <title>Dự án Quán bún bò huế ngon số 1 - Long An</title>
+                <meta name="description" content="Dự án quán bún bò huế ngon số 1 - dự án nổi bật được lên kế hoạch - thiết kế - thi công bởi Lu Vietnam" />
+            </Helmet>
             <Header active="4" />
             <nav className="article-nav">
                 <span onClick={returnPrevious}><i class="fa-solid fa-arrow-left"></i> Quay lại</span>

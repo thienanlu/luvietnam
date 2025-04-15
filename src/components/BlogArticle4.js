@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router";
 import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 import Header from "./Header";
 import Footer from "./Footer";
@@ -18,6 +19,11 @@ function BlogArticle4(){
 
     return (
         <div className="article-page">
+            <Helmet>
+                <title>6 Gợi ý cho các chủ quán đang kinh doanh trong thời buổi suy thoái kinh tế</title>
+                <meta name="description" content="6 gợi ý cho các chủ quán đang kinh doanh trong thời buổi suy thoái kinh tế các phương pháp có thể áp dụng ngay cho doanh nghiệp của bạn" />
+                <meta name="keywords" content="Gợi ý, kinh doanh, suy thoái kinh tế, thu hút khách hàng, quảng cáo, tối ưu chi phí, kinh doanh hiệu quả, tăng doanh thu" />
+            </Helmet>
             <Header active="3"/>
             <nav className="article-nav">
                 <span onClick={returnPrevious}><i class="fa-solid fa-arrow-left"></i> Quay lại</span>

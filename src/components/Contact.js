@@ -7,6 +7,7 @@ import ContactForm from "./ContactForm"
 import CallBtn from "./CallBtn"
 
 import '../assets/css/contact.css'
+import { Helmet } from "react-helmet"
 
 function Contact(){
     useEffect(() => {
@@ -14,6 +15,10 @@ function Contact(){
       }, []);
     return (
         <div className="contact">
+            <Helmet>
+                <title>Liên hệ - Tư vấn</title>
+                <meta name="description" content="Liên hệ với chúng tôi để nhận tư vấn ngay" />
+            </Helmet>
             <Header active="6"/>
             {/* <div className="box"></div> */}
             <section className="contact-wrapper container app-item">

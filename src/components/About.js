@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import {Helmet} from 'react-helmet'
 
 // import components
 import Header from "./Header";
@@ -16,6 +17,11 @@ function About(){
           }, []);
     return(
         <div className="about">
+            <Helmet>
+            <meta charSet="utf-8" />
+                <title>Lu Vietnam - Về chúng tôi</title>
+                <meta name="description" content="Đôi nét về Lu Vietnam" />
+            </Helmet>
             <Header active="2"/>
             <section className="about-wrapper container-fluid app-item mt-114">
                 <div className="row align-items-center justify-content-between">

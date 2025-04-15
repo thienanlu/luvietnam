@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { Link } from "react-router";
+import { Helmet } from "react-helmet";
 
 // import components
 import ButtonComponent from "./Button";
@@ -29,6 +30,10 @@ function Home(){
     return(
 
         <div className="home-wrapper">
+            <Helmet>
+                <title>Lu Vietnam - Thiết kế & Setup quán ăn</title>
+                <meta name="description" content="Lu Vietnam là đơn vị chuyên cung cấp dịch vụ setup và thiết kế nội thất quán ăn chuyên nghiệp. Với đội ngũ giàu kinh nghiệm và sáng tạo, LUVietnam giúp bạn biến ý tưởng thành không gian thực tế, tối ưu hóa công năng và mang đến phong cách độc đáo, thu hút khách hàng." />
+            </Helmet>
             <Header active="1"/>
             <Carousel title="LUVIETNAM" text="TƯ VẤN - THIẾT KẾ - THI CÔNG SETUP QUÁN - ĐÀO TẠO BẾP"/>
             {/* about section */}

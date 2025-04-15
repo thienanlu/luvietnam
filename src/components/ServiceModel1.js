@@ -1,5 +1,6 @@
 // import { Link } from "react-router";
 import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 import Header from "./Header";
 import Footer from "./Footer";
@@ -21,6 +22,10 @@ function ServiceModel1(){
                       }, [])
     return (
         <div className="service-model">
+            <Helmet>
+                <title>Mô hình quán cơm gà da giòn</title>
+                <meta name="description" content="Chi tiết mô hình quán cơm gà da giòn - quy trình thi công - chi phí dự kiến" />
+            </Helmet>
             <Header active="4" />
             <div className="service-model-banner mt-114">
                 <div className="service-text">

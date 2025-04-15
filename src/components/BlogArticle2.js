@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router";
 import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 import Header from "./Header";
 import Footer from "./Footer";
@@ -18,6 +19,11 @@ function BlogArticle2(){
 
     return (
         <div className="article-page">
+            <Helmet>
+                <title>4 điều cần lưu ý khi chọn 1 địa điểm kinh doanh ăn uống</title>
+                <meta name="description" content="Những lưu ý dành cho chủ quán khi lựa chọn địa điểm khởi nghiệp - kinh doanh ăn uống" />
+                <meta name="keywords" content="Vị trí, quán ăn, kinh doanh, địa điểm, khởi nghiệp" />
+            </Helmet>
             <Header active="3"/>
             <nav className="article-nav">
                 <span onClick={returnPrevious}><i class="fa-solid fa-arrow-left"></i> Quay lại</span>

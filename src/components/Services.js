@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 // import components
 import Header from "./Header"
@@ -20,6 +21,11 @@ function Services(){
       }, []);
     return(
         <div className="service">
+            <Helmet>
+                <title>Dịch vụ tư vấn & thiết kế quán ăn</title>
+                <meta name="description" content="Các gói thiết kế - setup của chúng tôi tập trung vào hai mô hình Cơm gà da giòn và Bún bò huế" />
+                <meta name="keywords" content="Setup quán ăn, Quy trình thiết kế quán ăn, Thiết kế nhà hàng, Cơm gà da giòn, Bún bò huế, quán ăn" />
+            </Helmet>
             <Header active="4" />
             <div className="service-wrapper app-item container mt-114">
                 <h3 className="service-heading app-item-title">Các gói thiết kế & setup</h3>

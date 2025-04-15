@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router";
 import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 import Header from "./Header"
 import Footer from "./Footer"
@@ -37,6 +38,10 @@ function Blog(){
   }
     return (
         <div className="blog">
+            <Helmet>
+                <title>Tin tức & Bài viết</title>
+                <meta name="description" content="Góc chia sẻ những kinh nghiệm kinh doanh ẩm thực được biên soạn bởi những chuyên gia giàu kinh nghiệm trong ngành ẩm thực, nhà hàng - khách sạn" />
+            </Helmet>
             <Header active="3"/>
             <section className="blog-wrapper app-item mt-114">
                 <h2 className="home-section-title">Bài viết nổi bật</h2>
