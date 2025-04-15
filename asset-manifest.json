@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/luvietnam/static/css/main.0c7e1d3a.css",
-    "main.js": "/luvietnam/static/js/main.bdfb9664.js",
+    "main.js": "/luvietnam/static/js/main.9d50030b.js",
     "static/js/488.9cc78663.chunk.js": "/luvietnam/static/js/488.9cc78663.chunk.js",
     "static/media/video-1.mp4": "/luvietnam/static/media/video-1.fac1b3095618dd98b87b.mp4",
     "static/media/comga-6.jpg": "/luvietnam/static/media/comga-6.2b276f102675c2b5b02e.jpg",
@@ -66,11 +66,11 @@
     "static/media/slick.ttf": "/luvietnam/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/luvietnam/static/media/slick.295183786cd8a1389865.woff",
     "main.0c7e1d3a.css.map": "/luvietnam/static/css/main.0c7e1d3a.css.map",
-    "main.bdfb9664.js.map": "/luvietnam/static/js/main.bdfb9664.js.map",
+    "main.9d50030b.js.map": "/luvietnam/static/js/main.9d50030b.js.map",
     "488.9cc78663.chunk.js.map": "/luvietnam/static/js/488.9cc78663.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c7e1d3a.css",
-    "static/js/main.bdfb9664.js"
+    "static/js/main.9d50030b.js"
   ]
 }
