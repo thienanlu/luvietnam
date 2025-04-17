@@ -233,6 +233,10 @@
 
     /* blog responsive */
 
+    .blog-card > img{
+        object-fit: contain!important;
+    }
+
     .article-product-banner__title{
         margin-top: 20px;
         text-align: center;

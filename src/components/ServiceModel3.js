@@ -24,6 +24,7 @@ function ServiceModel3(){
             <Helmet>
                 <title>Mô hình Kiosk</title>
                 <meta name="description" content="Chi tiết mô hình kiosk - quy trình thi công - chi phí dự kiến" />
+                <meta name="keywords" content="Kiosk, mở kiosk, kinh doanh nhỏ, mô hình kiosk, take away, kinh doanh ít vốn" />
                 <meta property="og:title" content="Mô hình kiosk" />
                 <meta property="og:image" content="thumbnail.jpg" />
                 <meta property="og:description" content="Chi tiết mô hình kiosk - quy trình thi công - chi phí dự kiến" />

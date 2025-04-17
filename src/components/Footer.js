@@ -22,8 +22,8 @@ function Footer(){
                     <div className='col-lg-4 col-sm-12 footer-col'>
                         <div className='social-media-link'>
                             <h4>Theo dõi chúng tôi</h4>
-                            <Link to="https://facebook.com"><i class="fa-brands fa-facebook first-icon"></i></Link>
-                            <Link to="https://tiktok.com"><i class="fa-brands fa-tiktok"></i></Link>
+                            <Link to="https://www.facebook.com/profile.php?id=61571922065354&sk=about" target="_blank"><i class="fa-brands fa-facebook first-icon"></i></Link>
+                            <Link target="_blank" to="https://www.tiktok.com/@setupquanbunbohue?is_from_webapp=1&sender_device=pc"><i class="fa-brands fa-tiktok"></i></Link>
                             <Link to="/contact"><i class="fa-solid fa-envelope"></i></Link>
                         </div>
                     </div>

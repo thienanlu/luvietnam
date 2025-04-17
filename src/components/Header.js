@@ -26,7 +26,7 @@ function Header(props){
                 <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                     <li className={props.active === "1" ? "nav-item active-item" : "nav-item"}>
-                        <Link to="/luvietnam/" className="nav-link" aria-current="page" href="#">Trang chủ</Link>
+                        <Link to="/luvietnam" className="nav-link" aria-current="page" href="#">Trang chủ</Link>
                     </li>
                     <li className={props.active === "2" ? "nav-item active-item" : "nav-item"}>
                         <Link to="/about" className="nav-link" href="#">Giới thiệu</Link>

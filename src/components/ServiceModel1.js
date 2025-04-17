@@ -25,6 +25,7 @@ function ServiceModel1(){
             <Helmet>
                 <title>Mô hình quán cơm gà da giòn</title>
                 <meta name="description" content="Chi tiết mô hình quán cơm gà da giòn - quy trình thi công - chi phí dự kiến" />
+                <meta name="keywords" content="Quán cơm gà da giòn, mô hình quán ăn, mô hình quán cơm gà, quán cơm, kinh doanh, cơm gà" />
                 <meta property="og:title" content="Mô hình quán cơm gà da giòn" />
                 <meta property="og:image" content="thumbnail.jpg" />
                 <meta property="og:description" content="Chi tiết mô hình quán cơm gà da giòn - quy trình thi công - chi phí dự kiến" />
