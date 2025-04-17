@@ -13,7 +13,7 @@ function Footer(){
         <div className="footer container-fluid">
                 <div className='row footer-wrapper'>
                     <div className='col-lg-4 col-sm-12 footer-col footer-logo-wrapper'>
-                        <Link to="/luvietnam"><img src={logo} alt="logo-luvietnam" className='footer-logo' /></Link>
+                        <Link to="/"><img src={logo} alt="logo-luvietnam" className='footer-logo' /></Link>
                     </div>
                     <div className='col-lg-4 col-sm-12 footer-col'>
                         <h4>Lu Vietnam</h4>

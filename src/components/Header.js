@@ -17,7 +17,7 @@ function Header(props){
             </div>
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid nav-wrapper">
-                <Link to="/luvietnam" classname="navbar-brand">
+                <Link to="/" classname="navbar-brand">
                     <img src={logo} alt="logo-luvietnam" className='navbar-logo'/>
                 </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +26,7 @@ function Header(props){
                 <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                     <li className={props.active === "1" ? "nav-item active-item" : "nav-item"}>
-                        <Link to="/luvietnam" className="nav-link" aria-current="page" href="#">Trang chủ</Link>
+                        <Link to="/" className="nav-link" aria-current="page" href="#">Trang chủ</Link>
                     </li>
                     <li className={props.active === "2" ? "nav-item active-item" : "nav-item"}>
                         <Link to="/about" className="nav-link" href="#">Giới thiệu</Link>
