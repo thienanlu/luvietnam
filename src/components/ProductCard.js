@@ -8,7 +8,7 @@ function ProductCard(props){
             <div className="product-card">
                 <img src={props.img} alt="" />
                 <div className="product-card-text">
-                    <ButtonComponent link="/contact" text="Liên hệ" />
+                    <ButtonComponent link="/lien-he" text="Liên hệ" />
                 </div>
             </div>
         </div>

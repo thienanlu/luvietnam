@@ -6,7 +6,7 @@
     padding: 12px 0;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     z-index: 100;
-    background-color: var(--background-color);
+    background-color: var(--background-color)!important;
 }
 
 .utilities-list{
@@ -26,7 +26,7 @@
 }
 
 .navbar{
-    padding: 0 40px 0 40px;
+    padding: 0 40px 0 40px!important;
     background-color: var(--background-color)!important;
 }
 

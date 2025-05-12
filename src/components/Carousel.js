@@ -30,21 +30,21 @@ function Carousel(){
                 <div class="slider-item">
                     <div className='slider-text'>
                         <h5 className='slider-item-title'>BÚN BÒ HUẾ LU VIETNAM</h5>
-                        <ButtonComponent link="/contact" text="Nhận tư vấn"/>
+                        <ButtonComponent link="/lien-he" text="Nhận tư vấn"/>
                     </div>
                     <img src={carouselImg1} class="slider-img slider-img-1" alt="" />
                 </div>
                 <div class="slider-item slider-item-unique">
                     <div className="slider-text-2 slider-text">
                         <h5 className='slider-item-title'>MÔ HÌNH QUÁN BÚN BÒ HUẾ</h5>
-                        <ButtonComponent link="/contact" text="Nhận tư vấn"/>
+                        <ButtonComponent link="/lien-he" text="Nhận tư vấn"/>
                     </div>
                     <img src={carouselImg2} class="slider-img slider-img-2" alt="" />
                 </div>
                 <div class="slider-item">
                     <div className='slider-text'>
                         <h5 className='slider-item-title'>CƠM GÀ DA GIÒN LU VIETNAM</h5>
-                        <ButtonComponent link="/contact" text="Nhận tư vấn"/>
+                        <ButtonComponent link="/lien-he" text="Nhận tư vấn"/>
                     </div>
                     <img src={carouselImg3} class="slider-img slider-img-3" alt="" />
                 </div>
@@ -52,7 +52,7 @@ function Carousel(){
                     <div className='slider-text-4 slider-text'>
                         <h5 className='slider-item-title'>MÔ HÌNH QUÁN CƠM GÀ DA GIÒN</h5>
                         {/* <ButtonComponent link="/mo-hinh-quan-com-ga-da-gion" text="Chi tiết"/> */}
-                        <ButtonComponent link="/contact" text="Nhận tư vấn"/>
+                        <ButtonComponent link="/lien-he" text="Nhận tư vấn"/>
                     </div>
                     <img src={carouselImg4} class="slider-img slider-img-4" alt="" />
                 </div>

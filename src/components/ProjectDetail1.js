@@ -24,7 +24,7 @@ function ProjectDetail1(){
 
     const navigate = useNavigate();
     const returnPrevious = () => {
-        navigate(-1)
+        navigate('/services')
     }
     return (
         <div className="project-detail">
@@ -40,10 +40,10 @@ function ProjectDetail1(){
                 <span onClick={returnPrevious}><i class="fa-solid fa-arrow-left"></i> Quay lại</span>
             </nav>
             <article className="project-detail-wrapper app-item">
-                <h3 className="app-item-title">Dự án Bún Bò Huế Ngon Số 1 </h3>
+                <h3 className="app-item-title">Dự án "Bún Bò Huế Ngon Số 1" </h3>
                 <h5 className="service-model-subtitle">Giới thiệu</h5>
                 <p className="service-model-desc">
-                Dự Án Quán Bún Bò Huế Ngon Số 1 được thực hiện bởi Lu Vietnam là một trong những bước đi chiến lược trong việc phát triển chuỗi ẩm thực đặc sản Việt Nam, với mục tiêu mang đến cho thực khách những trải nghiệm ẩm thực đậm đà hương vị miền Trung. Dự án này được khởi động với sứ mệnh đưa món bún bò Huế truyền thống trở thành món ăn yêu thích của mọi gia đình, đồng thời tôn vinh những giá trị văn hóa ẩm thực đặc sắc của vùng đất Huế.                
+                Dự Án Quán Bún Bò Huế Ngon số 1 được thực hiện bởi Lu Vietnam là một trong những bước đi chiến lược trong việc phát triển chuỗi ẩm thực đặc sản Việt Nam, với mục tiêu mang đến cho thực khách những trải nghiệm ẩm thực đậm đà hương vị miền Trung. Dự án này được khởi động với sứ mệnh đưa món bún bò Huế truyền thống trở thành món ăn yêu thích của mọi gia đình, đồng thời tôn vinh những giá trị văn hóa ẩm thực đặc sắc của vùng đất Huế.                
                 </p>
                 <h5 className="service-model-subtitle">Một số hình ảnh</h5>
                 <div className="project-img row">

@@ -15,7 +15,7 @@ function Header(props){
                     <li><i className="fa-solid fa-phone"></i>0906 756 711</li>
                 </ul>
             </div>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
+            <nav className="navbar navbar-expand-lg">
             <div className="container-fluid nav-wrapper">
                 <Link to="/" classname="navbar-brand">
                     <img src={logo} alt="logo-luvietnam" className='navbar-logo'/>
@@ -29,19 +29,19 @@ function Header(props){
                         <Link to="/" className="nav-link" aria-current="page" href="#">Trang chủ</Link>
                     </li>
                     <li className={props.active === "2" ? "nav-item active-item" : "nav-item"}>
-                        <Link to="/about" className="nav-link" href="#">Giới thiệu</Link>
+                        <Link to="/gioi-thieu" className="nav-link" href="#">Giới thiệu</Link>
                     </li>
                     <li className={props.active === "3" ? "nav-item active-item" : "nav-item"}>
-                        <Link to="/blog" className="nav-link" href="#">Tin tức</Link>
+                        <Link to="/tin-tuc" className="nav-link" href="#">Tin tức</Link>
                     </li>
                     <li className={props.active === "4" ? "nav-item active-item" : "nav-item"}>
-                        <Link to="/services" className="nav-link" href="#">Dịch vụ</Link>
+                        <Link to="/dich-vu" className="nav-link" href="#">Dịch vụ</Link>
                     </li>
                     <li className={props.active === "5" ? "nav-item active-item" : "nav-item"}>
-                        <Link to="/product" className="nav-link">Sản phẩm</Link>
+                        <Link to="/san-pham" className="nav-link">Sản phẩm</Link>
                     </li>
                     <li className={props.active === "6" ? "nav-item active-item" : "nav-item"}>
-                        <Link to="/contact" className="nav-link">Liên hệ</Link>
+                        <Link to="/lien-he" className="nav-link">Liên hệ</Link>
                     </li>
                 </ul>
                 </div>

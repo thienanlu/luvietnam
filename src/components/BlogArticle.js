@@ -16,7 +16,7 @@ function BlogArticle(){
 
     const navigate = useNavigate();
     const returnPrevious = () => {
-        navigate(-1)
+        navigate('/tin-tuc')
     }
 
     return (
@@ -63,8 +63,8 @@ function BlogArticle(){
                     <img src={ArticleProductImg} className="article-img col-lg-3 col-sm-12" alt=""/>
                     <div className="article-product-banner__text col-lg-9 col-sm-12">
                         <h3 className="article-product-banner__title">Nồi hầm điện - Nồi phở Inox điện</h3>
-                        <ButtonComponent link="/contact" text="Liên hệ mua hàng ngay" />
-                        <ButtonComponent link="/product" text="Xem danh mục sản phẩm" />
+                        <ButtonComponent link="/lien-he" text="Liên hệ mua hàng ngay" />
+                        <ButtonComponent link="/san-pham" text="Xem danh mục sản phẩm" />
                     </div>
                 </div>
             </article>

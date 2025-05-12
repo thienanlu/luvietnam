@@ -14,7 +14,7 @@ function BlogArticle4(){
 
     const navigate = useNavigate();
     const returnPrevious = () => {
-        navigate(-1)
+        navigate('/tin-tuc')
     }
 
     return (

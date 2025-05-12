@@ -13,6 +13,7 @@ import serviceCard1 from "../assets/img/carousel-img-4.webp";
 import serviceCard2 from "../assets/img/bunbo/bunbo-1.webp";
 import serviceCard3 from "../assets/img/kiosk/kiosk-2.webp";
 import projectCard1 from '../assets/img/project/project1-img-3.webp'
+import projectCard2 from '../assets/img/project/project2-img-1.webp'
 
 
 function Services(){
@@ -40,7 +41,7 @@ function Services(){
                                 <h3 className="service-card-name">Mô hình quán cơm gà da giòn</h3>
                                 <div className="service-card-nav">
                                     <ButtonComponent link="/mo-hinh-quan-com-ga-da-gion" text="Chi tiết" />
-                                    <ButtonComponent link="/contact" text="Nhận tư vấn" />
+                                    <ButtonComponent link="/lien-he" text="Nhận tư vấn" />
 
                                     {/* open button modal for project images */}
                                     {/* <Button variant="primary" onClick={() => setModalShow(true)} className='button service-modal-btn'>
@@ -67,7 +68,7 @@ function Services(){
                                 <h3 className="service-card-name">Mô hình quán bún bò huế</h3>
                                 <div className="service-card-nav">
                                     <ButtonComponent link="/mo-hinh-quan-bun-bo-hue" text="Chi tiết" />
-                                    <ButtonComponent link="/contact" text="Nhận tư vấn" />
+                                    <ButtonComponent link="/lien-he" text="Nhận tư vấn" />
                                 </div>
                             </div>
                         </div>
@@ -79,7 +80,7 @@ function Services(){
                                 <h3 className="service-card-name">Mô hình kiosk</h3>
                                 <div className="service-card-nav">
                                     <ButtonComponent link="/mo-hinh-kiosk" text="Chi tiết" />
-                                    <ButtonComponent link="/contact" text="Nhận tư vấn" />
+                                    <ButtonComponent link="/lien-he" text="Nhận tư vấn" />
                                 </div>
                             </div>
                         </div>
@@ -92,6 +93,15 @@ function Services(){
                 <h3 className="app-item-title">Một số dự án của chúng tôi</h3>
                 <div className="container">
                     <div className="row justify-content-center">
+                    <div className="col-lg-4 col-sm-12">
+                            <div className="project-card">
+                                <img src={projectCard2} alt="Sample restaurant setted up by Luvietnam" />
+                                <div className="project-card-textbox">
+                                    <h3 className="project-card-name">Bún Bò Huế Ngon</h3>
+                                    <ButtonComponent text="Xem thêm" link="/du-an-bun-bo-hue-ngon" />
+                                </div>
+                            </div>
+                        </div>
                         <div className="col-lg-4 col-sm-12">
                             <div className="project-card">
                                 <img src={projectCard1} alt="Sample restaurant setted up by Luvietnam" />

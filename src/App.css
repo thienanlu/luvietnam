@@ -26,9 +26,8 @@ li, a, p, button{
 }
 
 .row{
-  margin: 0;
+  margin: 0!important;
 }
-
 
 .box{
   height: 500px;
@@ -36,7 +35,7 @@ li, a, p, button{
 
 .app-item{
   position: relative;
-  padding: 64px 40px;
+  padding: 64px 40px!important;
 }
 
 .app-item-title{
@@ -46,11 +45,11 @@ li, a, p, button{
 }
 
 .app-section-img{
-  margin-top: 20px;
+  margin-top: 20px!important;
 }
 
 .mt-114{
-  margin-top: 99px;
+  margin-top: 75px;
 }
 
 .call-btn{

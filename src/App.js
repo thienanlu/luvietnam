@@ -15,6 +15,7 @@ import ServiceModel1 from './components/ServiceModel1';
 import ServiceModel2 from './components/ServiceModel2';
 import ServiceModel3 from './components/ServiceModel3';
 import ProjectDetail1 from './components/ProjectDetail1';
+import ProjectDetail2 from './components/ProjectDetail2';
 
 // import css files
 import './App.css';
@@ -25,11 +26,11 @@ function App() {
       <div className="main">
          <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/services" element={<Services />} />
-            <Route path="/product" element={<Product />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/gioi-thieu" element={<About />} />
+            <Route path="/tin-tuc" element={<Blog />} />
+            <Route path="/dich-vu" element={<Services />} />
+            <Route path="/san-pham" element={<Product />} />
+            <Route path="/lien-he" element={<Contact />} />
 
             <Route path="/bai-viet-ve-noi-ham-dien" element={<Article1 />} />
             <Route path="/4-dieu-can-luu-y-khi-chon-dia-diem-kinh-doanh-an-uong" element={<BlogArticle2 />} />
@@ -41,6 +42,7 @@ function App() {
             <Route path="/mo-hinh-kiosk" element={<ServiceModel3 />} />
 
             <Route path="/du-an-bun-bo-hue-ngon-so-1" element={<ProjectDetail1 />} />
+            <Route path="/du-an-bun-bo-hue-ngon" element={<ProjectDetail2 />} />
          </Routes>
       </div>
     </>

@@ -15,6 +15,9 @@ function About(){
     useEffect(() => {
             window.scrollTo(0, 0);
           }, []);
+
+    var HTMLHead = document.querySelector('title');
+    console.log(HTMLHead)
     return(
         <div className="about">
             <Helmet>

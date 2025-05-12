@@ -33,7 +33,7 @@ function Home(){
         <div className="home-wrapper">
             <Helmet>
                 <title>Lu Vietnam - Thiết kế & Setup quán ăn</title>
-                <meta name="description" content="Lu Vietnam là đơn vị chuyên cung cấp dịch vụ setup và thiết kế nội thất quán ăn chuyên nghiệp. Với đội ngũ giàu kinh nghiệm và sáng tạo, LUVietnam giúp bạn biến ý tưởng thành không gian thực tế, tối ưu hóa công năng và mang đến phong cách độc đáo, thu hút khách hàng." />
+                <meta name="description" content="Lu Vietnam là đơn vị chuyên cung cấp dịch vụ setup và thiết kế nội thất quán ăn chuyên nghiệp. Với đội ngũ giàu kinh nghiệm và sáng tạo, Lu Vietnam giúp bạn biến ý tưởng thành không gian thực tế, tối ưu hóa công năng và mang đến phong cách độc đáo, thu hút khách hàng." />
                 <meta property="og:title" content="Lu Vietnam - Thiết kế & Setup nội thất quán ăn" />
                 <meta property="og:image" content={logo} />
                 <meta property="og:description" content="Lu Vietnam là đơn vị chuyên cung cấp dịch vụ setup và thiết kế nội thất quán ăn chuyên nghiệp" />
@@ -47,7 +47,7 @@ function Home(){
                         <h2 className="home-section-title">Về chúng tôi</h2>
                         <p><b>Lu Vietnam - Thiết kế và setup quán ăn chuyên nghiệp.</b> <p>Chúng tôi biến ý tưởng của bạn thành không gian ẩm thực độc đáo, thu hút và hiệu quả. 
                             Tin cậy Lu Vietnam để khởi đầu hành trình kinh doanh đầy cảm hứng!</p> </p>
-                        <ButtonComponent link='/about' text="Tìm hiểu thêm" />
+                        <ButtonComponent link='/gioi-thieu' text="Tìm hiểu thêm" />
                     </div>
                     <video className="col-lg-4 col-sm-12 app-item-img" height="450px" autoPlay loop muted>
                         <source src={homeVideo} type="video/mp4" />
@@ -84,7 +84,7 @@ function Home(){
                                 <img src={productImg3} alt="product 3" className="" loading="lazy" />
                             </div>
                         </div>
-                        <Link to="/product">Xem thêm <i className="fa-solid fa-arrow-right"></i></Link>
+                        <Link to="/san-pham">Xem thêm <i className="fa-solid fa-arrow-right"></i></Link>
                     </div>
                 </div>
             </section>

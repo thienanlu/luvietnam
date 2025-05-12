@@ -85,6 +85,10 @@
     align-items: center;
 }
 
+.home-product-gallery__item{
+    margin-top: 20px!important;
+}
+
 .home-product-gallery > a{
     text-decoration: none;
     display: block;
@@ -94,6 +98,7 @@
     border-radius: 16px;
     transition: all ease-in-out 0.2s;
     border: 1px solid var(--text-color);
+    color: var(--text-color);
 }
 
 .home-product-gallery > a:hover{

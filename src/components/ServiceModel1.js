@@ -36,7 +36,6 @@ function ServiceModel1(){
                     <h3 className="">Mô hình quán cơm gà da giòn</h3>
                 </div>
                 <img src={bannerImg} alt="banner" />
-                {/* <i class="fa-solid fa-arrow-down"></i> */}
             </div>
             <div className="service-model-wrapper app-item" id="service-model-wrapper">
                 <h5 className="service-model-subtitle">Giới thiệu</h5>

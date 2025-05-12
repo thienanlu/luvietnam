@@ -10,7 +10,7 @@ function ContactBanner(){
             <img src={backgroundImage} alt="sample restaurant" loading="lazy"/>
             <div className="contact-banner-text">
                 <h3 className="home-section-title">Đăng ký tư vấn miễn phí</h3>
-                <ButtonComponent link="/contact" text="Liên hệ với chúng tôi" />
+                <ButtonComponent link="/lien-he" text="Liên hệ với chúng tôi" />
             </div>
         </section>
     )

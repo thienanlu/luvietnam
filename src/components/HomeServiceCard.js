@@ -6,7 +6,7 @@ function HomeServiceCard(props){
                 <div className="home-service-card">
                     <i class={props.icon}></i>
                     <h4>{props.title}</h4>
-                    <Button link="/services" text="Chi tiết"/>
+                    <Button link="/dich-vu" text="Chi tiết"/>
                 </div>
             </div>
     )

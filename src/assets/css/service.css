@@ -146,7 +146,8 @@
 .project-card > img{
     border-radius: 8px;
     width: 100%;
-    object-fit: cover;
+    height: 250px;
+    object-fit: contain;
 }
 
 .project-card-textbox{
@@ -163,6 +164,18 @@
 }
 
 /* project details */
+.project-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.project-logo > img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 36px;
+    display: flex;
+    justify-content: center;
+}
 .project-detail-wrapper{
     margin-top: 140px;
 }
@@ -173,8 +186,41 @@
 }
 
 .project-img > img{
-    height: 450px;
+    height: 500px;
     margin-top: 20px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 8px;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+}
+
+.project-info-col{
+    padding: 0!important;
+}
+
+.project-info-text{
+    margin-bottom: 0;
+}
+
+.project-info{
+    margin-top: 36px;
+    padding: 0!important;
+}
+
+
+.project-info-link{
+    text-align: right;
+}
+
+.project-info-link i{
+    font-size: 24px;
+    border-radius: 50%;
+    padding: 24px;
+    background-color: var(--primary-color);
+    color: #fff;
+    margin-left: 12px;
+}
+
+.project-video{
+    margin: 36px 0;
+    text-align: center;
 }
