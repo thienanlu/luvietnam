@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Slider from "react-slick";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 // import components
 import Header from "./Header";

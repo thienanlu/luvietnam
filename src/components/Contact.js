@@ -7,7 +7,7 @@ import ContactForm from "./ContactForm"
 import CallBtn from "./CallBtn"
 
 import '../assets/css/contact.css'
-import { Helmet } from "react-helmet"
+import { Helmet } from "react-helmet-async"
 
 function Contact(){
     useEffect(() => {

@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import {Helmet} from 'react-helmet'
+import { HelmetProvider, Helmet } from "react-helmet-async";
 
 // import components
 import Header from "./Header";
@@ -20,13 +20,12 @@ function About(){
     console.log(HTMLHead)
     return(
         <div className="about">
-            <Helmet>
-            <meta charSet="utf-8" />
+            <Helmet prioritizeSeoTags>
                 <title>Lu Vietnam - Về chúng tôi</title>
                 <meta name="description" content="Đôi nét về Lu Vietnam" />
                 <meta property="og:title" content="Lu Vietnam - Về chúng tôi" />
-                <meta property="og:image" content="thumbnail.jpg" />
-                <meta property="og:description" content="Lu Vietnam là đơn vị chuyên cung cấp dịch vụ setup và thiết kế nội thất quán ăn chuyên nghiệp" />
+                <meta property="og:image" content="logo.jpg" />
+                <meta property="og:description" content="Đôi nét về Lu Vietnam" />
             </Helmet>
             <Header active="2"/>
             <section className="about-wrapper container-fluid app-item mt-114">

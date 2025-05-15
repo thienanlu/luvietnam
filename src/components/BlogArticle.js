@@ -1,6 +1,6 @@
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 import Header from "./Header";
 import Footer from "./Footer";
@@ -21,7 +21,7 @@ function BlogArticle(){
 
     return (
         <div className="article-page">
-            <Helmet>
+            <Helmet prioritizeSeoTags>
                 <title>Nồi hầm điện - Giải pháp nấu nướng hiện đại, tiện lợi và an toàn</title>
                 <meta name="description" content="Lợi ích của nồi hầm điện - sản phẩm nấu nướng thông minh - an toàn - tiện lợi" />
                 <meta name="keywords" content="Nồi hầm điện, Nấu ăn nhanh, Nấu ăn an toàn, Nấu ăn tiết kiệm" />
