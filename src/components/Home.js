@@ -40,6 +40,7 @@ function Home(){
         <div className="home-wrapper">
             <Header active="1"/>
             <Carousel title="LUVIETNAM" text="TƯ VẤN - THIẾT KẾ - THI CÔNG SETUP QUÁN - ĐÀO TẠO BẾP"/>
+
             {/* about section */}
             <section className="home-about-section container-fluid app-item">
                 <div className="row align-items-center justify-content-between">
