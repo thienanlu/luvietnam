@@ -20,15 +20,21 @@
     margin-bottom: 0;
 }
 
+.home-about-textbox{
+    padding: 0;
+}
+
 .home-about-textbox p{
     margin-top: 20px;
     padding: 0;
     text-align: justify;
+    font-weight: 450;
 }
 
 .home-about-textbox p > b{
     color: var(--primary-color);
-    font-size: 24px;
+    font-size: 26px;
+    font-weight: 700;
 }
 
 /* service section */
@@ -41,10 +47,22 @@
     justify-content: center;
 }
 
+.home-service-textbox{
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-service-textbox p {
+    width: 85%;
+    font-style: italic;
+}
+
 .home-service-card__wrapper{
     width: 100%;
     display: flex;
-    margin: 0;
     justify-content: space-between;
 }
 
@@ -72,10 +90,15 @@
 /* product section */
 .home-product-textbox{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .home-product-textbox > p{
     margin-top: 20px;
+    width: 85%;
+    font-style: italic
 }
 
 .home-product-gallery{

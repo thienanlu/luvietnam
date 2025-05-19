@@ -31,6 +31,7 @@ function Home(){
     return(
         <>
         <Helmet prioritizeSeoTags>
+            <link rel="shortcut icon" href="../assets/img/faviconlogo.ico" type="image/x-icon" />
             <title>Lu Vietnam - Thiết kế & Setup quán ăn</title>
             <meta name="description" content="Lu Vietnam là đơn vị chuyên cung cấp dịch vụ setup và thiết kế nội thất quán ăn chuyên nghiệp. Với đội ngũ giàu kinh nghiệm và sáng tạo, Lu Vietnam giúp bạn biến ý tưởng thành không gian thực tế, tối ưu hóa công năng và mang đến phong cách độc đáo, thu hút khách hàng." />
             <meta property="og:title" content="Lu Vietnam - Thiết kế & Setup nội thất quán ăn" />
@@ -45,9 +46,10 @@ function Home(){
             <section className="home-about-section container-fluid app-item">
                 <div className="row align-items-center justify-content-between">
                     <div className="home-about-textbox col-lg-7 col-sm-12">
-                        <h2 className="home-section-title">Về chúng tôi</h2>
-                        <p><b>Lu Vietnam - Thiết kế và setup quán ăn chuyên nghiệp.</b> <p>Chúng tôi biến ý tưởng của bạn thành không gian ẩm thực độc đáo, thu hút và hiệu quả. 
-                            Tin cậy Lu Vietnam để khởi đầu hành trình kinh doanh đầy cảm hứng!</p> </p>
+                        {/* <h2 className="home-section-title">Về chúng tôi</h2> */}
+                        <p><b>Lu Vietnam - Thiết kế và setup quán ăn chuyên nghiệp.</b> <p>Bạn đang có ý tưởng mở quán ăn nhưng chưa biết bắt đầu từ đâu? Hãy để Lu Vietnam đồng hành cùng bạn!</p> 
+                        <p>Với nhiều năm kinh nghiệm trong lĩnh vực F&B và quản trị nhà hàng khách sạn, đội ngũ chuyên gia của chúng tôi cung cấp giải pháp trọn gói từ tư vấn ý tưởng kinh doanh, thiết kế không gian, lựa chọn thiết bị - nguyên vật liệu, đến setup vận hành quán ăn một cách hiệu quả và tiết kiệm chi phí. </p>
+                        </p>
                         <ButtonComponent link='/gioi-thieu' text="Tìm hiểu thêm" />
                     </div>
                     <video className="col-lg-4 col-sm-12 app-item-img" height="450px" autoPlay loop muted>
@@ -58,7 +60,10 @@ function Home(){
 
             {/* service intro section */}
             <section className="home-service-section container-fluid app-item">
-                <h3 className="home-section-title">Chúng tôi cung cấp</h3>
+                    <div className="home-service-textbox">
+                        <h2 className="home-section-title">Dịch vụ</h2>
+                        <p>Chúng tôi cung cấp cho bạn giải pháp tối ưu nhất, đưa những ý tưởng của bạn trở thành hiện thực. Dịch vụ trọn gói từ A – Z của chúng tôi bao gồm các bước từ lên ý tưởng – thiết kế - setup cho đến quy trình vận hành một quán ăn hoàn chỉnh</p>
+                    </div>
                 <div className="home-service-card__wrapper row">
                     <HomeServiceCard title="Tư vấn - Thiết kế quán" icon="fa-solid fa-lightbulb"/>
                     <HomeServiceCard title="Set up quán" icon="fa-solid fa-gears"/>
@@ -71,7 +76,7 @@ function Home(){
                 <div className="row">
                     <div className="home-product-textbox">
                         <h2 className="home-section-title">Sản phẩm</h2>
-                        <p>Chúng tôi mang đến giải pháp toàn diện với nội thất chất lượng và nguyên liệu tươi ngon, giúp bạn xây dựng không gian và thực đơn hoàn hảo. Đồng hành cùng Lu Vietnam để tạo nên dấu ấn riêng cho quán ăn của bạn!</p>
+                        <p>Chúng tôi chuyên cung cấp nội thất chuyên dụng cho quán ăn và nguyên liệu thực phẩm chất lượng cao, đáp ứng đa dạng mô hình từ quán ăn vỉa hè đến nhà hàng chuyên nghiệp. </p>
                     </div>
                     <div className="home-product-gallery container">
                         <div className="row home-product-gallery-wrapper">

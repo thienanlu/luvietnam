@@ -39,6 +39,7 @@ function Blog(){
     return (
         <div className="blog">
             <Helmet>
+                <link rel="shortcut icon" href="../assets/img/faviconlogo.ico" type="image/x-icon" />
                 <title>Tin tức & Bài viết</title>
                 <meta name="description" content="Góc chia sẻ những kinh nghiệm kinh doanh ẩm thực được biên soạn bởi những chuyên gia giàu kinh nghiệm trong ngành ẩm thực, nhà hàng - khách sạn" />
                 <meta property="og:title" content="Tin tức & Bài viết" />

@@ -99,6 +99,7 @@ function Product(){
     return(
         <div className="product">
             <Helmet>
+                <link rel="shortcut icon" href="../assets/img/faviconlogo.ico" type="image/x-icon" />
                 <title>Sản phẩm & Thiết bị</title>
                 <meta name="description" content="Chúng tôi cung cấp sản phẩm nội thất và thiết bị cho quán ăn với giá cả phù hợp" />
                 <meta name="keywords" content="Nội thất quán ăn, thiết bị bếp, thiết bị nhà hàng, Dụng cụ ăn uống" />

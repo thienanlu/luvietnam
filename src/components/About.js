@@ -21,6 +21,7 @@ function About(){
     return(
         <div className="about">
             <Helmet prioritizeSeoTags>
+                <link rel="shortcut icon" href="../assets/img/faviconlogo.ico" type="image/x-icon" />
                 <title>Lu Vietnam - Về chúng tôi</title>
                 <meta name="description" content="Đôi nét về Lu Vietnam" />
                 <meta property="og:title" content="Lu Vietnam - Về chúng tôi" />

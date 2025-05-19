@@ -63,7 +63,8 @@
     }
 
     .home-section-title ~ p{
-        text-align: center;
+        text-align: justify;
+        width: 100%;
     }
 
     .home-about-section video{
@@ -71,7 +72,8 @@
     }
 
     .home-about-textbox > p, .home-product-textbox > p{
-        text-align: justify;
+        text-align: justify!important;
+        width: 100%;
     }
 
     .home-product-img > img{

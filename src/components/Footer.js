@@ -29,7 +29,7 @@ function Footer(){
                     </div>
                 </div>
                 <div className='copyright'>
-                    <p>Copyright<i className='fa-regular fa-copyright'></i>{year} Lu Vietnam - Designed by <Link to="https://linkedin.com" target='_blank'>Lữ Hoàng Thiên Ân</Link></p>
+                    <p>Copyright<i className='fa-regular fa-copyright'></i>{year} Lu Vietnam - Designed by <Link to="https://luhoangthienan.netlify.app" target='_blank'>Lữ Hoàng Thiên Ân</Link></p>
                 </div>
         </div>
     )

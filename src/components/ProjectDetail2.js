@@ -21,7 +21,7 @@ function ProjectDetail2(){
 
     const navigate = useNavigate();
     const returnPrevious = () => {
-    navigate('/services')
+    navigate('/dich-vu')
 }
     return (
         <div className="project-detail">
